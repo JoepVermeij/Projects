@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFTeam10.Project.WpfSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTeam10.Project"
+        mc:Ignorable="d"
+        Title="WpfSettings" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel>
+            <WrapPanel Margin="10">
+                <Label Content="SQL Server:" Width="150"></Label>
+                <TextBox x:Name="TxtSqlServer" Width="150"></TextBox>
+            </WrapPanel>
+            <WrapPanel Margin="10">
+                <Label Content="Project Database:" Width="150"></Label>
+                <TextBox x:Name="TxtProjDB" Width="150"></TextBox>
+            </WrapPanel>
+            <WrapPanel Margin="10">
+                <Label Content="Individueel Database:" Width="150"></Label>
+                <TextBox x:Name="TxtindDB" Width="150"></TextBox>
+            </WrapPanel>
+            <TextBox x:Name="TxtProjConnString"  Width="300" Margin="5"></TextBox>
+            <TextBox x:Name="TxtIndConnString"  Width="300" Margin="5"></TextBox>
+        </StackPanel>        
+    </Grid>
+</Window>

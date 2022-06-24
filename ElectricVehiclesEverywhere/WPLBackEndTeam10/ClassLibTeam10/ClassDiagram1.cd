@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibTeam10.Attributes.KeyAttribute" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\KeyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Attributes.PrimaryKeyAttribute" Collapsed="true">
+    <Position X="14" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\PrimaryKeyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Business.ControllerHandler" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAYQAQAAAAAASAAAAAAA=</HashCode>
+      <FileName>Business\ControllerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.DeleteSql" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Framework\DeleteSql.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.HandleLogins" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Data\Framework\HandleLogins.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.InsertsSql" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Framework\InsertsSql.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.SelectSql" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Framework\SelectSql.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.UpdateSql" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Framework\UpdateSql.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.BaseResult" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Data\ResultEntities\BaseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.DeleteResult" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResultEntities\DeleteResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.InsertResult" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResultEntities\InsertResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.SelectResult" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResultEntities\SelectResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.Framework.UpdateResult" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResultEntities\UpdateResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Data.PropertyHandler" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAA=</HashCode>
+      <FileName>Data\PropertyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Entities.Klant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAQAAgACAJCAAQAAgAgCAAEAgAAAAAADkAAAAAAAA=</HashCode>
+      <FileName>Entities\Klant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibTeam10.Entities.Login" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Entities.Student" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAg=</HashCode>
+      <FileName>Entities\Student.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibTeam10.Entities.WebToken" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Entities\WebToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.EvaertKristof.Csharpdeveloper" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAAAAAEAAAAAAAAAAAAAQAAAEAIAAAAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\EvaertKristof\Csharpdeveloper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.EvaertKristof.Hobby" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAAAAEAAAABAAAAAQAAAAAAQAAAAEAAAg=</HashCode>
+      <FileName>IndividueleOpdrachten\EvaertKristof\Hobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.EvaertKristof.HobbyTestKristof" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACARAAASAAoAAAAAAAAIAAUAAAAAJAACAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\EvaertKristof\HobbyTestKristof.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.EvaertKristof.KristofEvaert" Collapsed="true">
+    <Position X="11" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAgIADAAAAAAAAIBAAAAAAAAAQIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\EvaertKristof\KristofEvaert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.EvaertKristof.Profiel" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAIADAAAAAAAAIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\EvaertKristof\Profiel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.KerkhofsDavy.DavyKerkhofs" Collapsed="true">
+    <Position X="8" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCIAAAgAAADAAAAAAACIAAAAAAAAAAAIAAAACAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\KerkhofsDavy\DavyKerkhofs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.KerkhofsDavy.Hobby" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAABAAAAAQAAAAAAQAAAAEAAAg=</HashCode>
+      <FileName>IndividueleOpdrachten\KerkhofsDavy\Hobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.KerkhofsDavy.HobbyTestDavy" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACARAAASAAoAAAAAAAAIAAUAAAAAJAACAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\KerkhofsDavy\HobbyTestDavy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.KerkhofsDavy.Profiel" Collapsed="true">
+    <Position X="8" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAIADAAAAAAAAIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\KerkhofsDavy\Profiel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.KerkhofsDavy.WebDeveloper" Collapsed="true">
+    <Position X="8" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAoAAAAAAAAIEMABAAAAAIIAAAAAAI=</HashCode>
+      <FileName>IndividueleOpdrachten\KerkhofsDavy\WebDeveloper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.SleursBen.BenSleurs" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCIAAAgAAADAAAAAAACIAAAAAAAAAAAIAAQAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\SleursBen\BenSleurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.SleursBen.Hobby" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAABAAAAAQAAAAAAQAAAAEAAAg=</HashCode>
+      <FileName>IndividueleOpdrachten\SleursBen\Hobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.SleursBen.HobbyTestBen" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAAACARAAASAAoAAAAAAAAIAAUAAAAAJAACAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\SleursBen\HobbyTestBen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.SleursBen.Profiel" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAIADAAAAAAAAIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\SleursBen\Profiel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.SleursBen.Tester" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\SleursBen\Tester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VanheesBenjamin.BenjaminVanhees" Collapsed="true">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCIAAAgAAADAAAAAAACIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VanheesBenjamin\BenjaminVanhees.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VanheesBenjamin.Designer" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VanheesBenjamin\Designer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VanheesBenjamin.Hobby" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAAAAEAAAABAAAAAQAAAAAAQAAAAEAAAg=</HashCode>
+      <FileName>IndividueleOpdrachten\VanheesBenjamin\Hobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VanheesBenjamin.HobbyTestBenjamin" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACARAAASAAoAAAAAAAAIAAUAAAAAJAACAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VanheesBenjamin\HobbyTestBenjamin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VanheesBenjamin.Profiel" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAIADAAAAAAAAIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VanheesBenjamin\Profiel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VermeijJoep.Hobby" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAABAAAAAQAAAAAAQAAAAEAAAg=</HashCode>
+      <FileName>IndividueleOpdrachten\VermeijJoep\Hobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VermeijJoep.HobbyTestJoep" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACARAAASAAoAAAAAAAAIAAUAAAAAJAACAAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VermeijJoep\HobbyTestJoep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VermeijJoep.Profiel" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAIADAAAAAAAAIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VermeijJoep\Profiel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VermeijJoep.Scrummaster" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQBAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAI=</HashCode>
+      <FileName>IndividueleOpdrachten\VermeijJoep\Scrummaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.IndividueleOpdrachten.VermeijJoep.VermeijJoep" Collapsed="true">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAADIAAgAAACIAAAAAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>IndividueleOpdrachten\VermeijJoep\VermeijJoep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibTeam10.Settings.Settings" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ClassLibTeam10.Entities.IEntity" Collapsed="true">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Entities\IEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

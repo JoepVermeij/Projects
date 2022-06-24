@@ -1,0 +1,71 @@
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\WPFTeam10.exe.config
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\WPFTeam10.exe
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\WPFTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\ClassLibTeam10.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Cors.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Options.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\nunit.framework.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Buffers.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.ComponentModel.Annotations.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Memory.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Numerics.Vectors.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Text.Encodings.Web.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\ClassLibTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\ClassLibTeam10.dll.config
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Cors.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Options.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\nunit.framework.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Buffers.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Memory.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Numerics.Vectors.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\bin\Debug\System.Text.Encodings.Web.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.csproj.AssemblyReference.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfBenjaminVanhees.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfBenSleurs.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfDavyKerkhofs.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfJoepVermeij.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfKristofvaert.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\LogInScreen.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\MainWindow.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Project\WpfSettings.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\StartUpWindow.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\App.g.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10_MarkupCompile.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10_MarkupCompile.lref
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfBenjaminVanhees.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfBenSleurs.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfDavyKerkhofs.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfJoepVermeij.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Individuele Opdracten\WpfKristofvaert.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\LogInScreen.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\MainWindow.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\Project\WpfSettings.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\StartUpWindow.baml
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.g.resources
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.Properties.Resources.resources
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.csproj.GenerateResource.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.csproj.CoreCompileInputs.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.csproj.CopyComplete
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.exe
+C:\WPLBackEnd\WPLBackEndTeam10\WPFTeam10\obj\Debug\WPFTeam10.pdb

@@ -1,0 +1,100 @@
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\ClassLibTeam10.dll.config
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\ClassLibTeam10.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\ClassLibTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Cors.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Options.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.framework.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Buffers.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.ComponentModel.Annotations.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Memory.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Numerics.Vectors.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Text.Encodings.Web.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Cors.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Options.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.framework.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Buffers.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Memory.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Numerics.Vectors.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Text.Encodings.Web.xml
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.csproj.CoreCompileInputs.cache
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.csproj.CopyComplete
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.csproj.AssemblyReference.cache
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\NUnit3.TestAdapter.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\NUnit3.TestAdapter.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.engine.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.engine.api.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.engine.core.dll
+C:\WPLBackEnd\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\testcentric.engine.metadata.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\NUnit3.TestAdapter.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\NUnit3.TestAdapter.pdb
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.engine.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.engine.api.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.engine.core.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\testcentric.engine.metadata.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\ClassLibTeam10.dll.config
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\ClassLibTeam10.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\ClassLibTeam10.pdb
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Cors.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Options.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.framework.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Buffers.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.ComponentModel.Annotations.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Memory.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Numerics.Vectors.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Text.Encodings.Web.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Cors.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Options.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\nunit.framework.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Buffers.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Memory.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Numerics.Vectors.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\bin\Debug\System.Text.Encodings.Web.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.csproj.AssemblyReference.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.csproj.CoreCompileInputs.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.csproj.CopyComplete
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\ClassLibTeam10\obj\Debug\ClassLibTeam10.pdb

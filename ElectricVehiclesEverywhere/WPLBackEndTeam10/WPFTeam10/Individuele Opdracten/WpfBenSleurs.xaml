@@ -1,0 +1,83 @@
+﻿<Window x:Class="WPFTeam10.Individeule_Opdracten.WpfBenSleurs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTeam10.Individeule_Opdracten"
+        mc:Ignorable="d"
+        Title="WpfBenSleurs" Height="1000" Width="1400" Loaded="Window_Loaded" Closing="Window_Closing">
+   
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="10 20 " />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="FontSize" Value="16pt" />
+                <Setter Property="Foreground" Value="white" />
+                <Setter Property="FontFamily" Value="Roboto" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="Width" Value="400" />
+                <Setter Property="Background" Value="#182c4c" />
+                <Setter Property="BorderBrush" Value="#00c040" />
+                <Setter Property="BorderThickness" Value="4" />              
+            </Style>
+        
+            <Style TargetType="{x:Type DataGridCell}">
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="FontFamily" Value=" Roboto"/>
+                <Setter Property="FontSize" Value="12px"/>
+                <Setter Property="Margin" Value="5px"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="#182c4c"/>
+                <Setter Property="BorderThickness" Value="2px"/>
+                <Setter Property="BorderBrush" Value="#00c040"/>
+                <Setter Property="MinWidth" Value="125px"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+
+            </Style>
+
+            <!--Style and template for the DataGridColumnHeader.-->
+            <Style TargetType="{x:Type DataGridColumnHeader}">
+                <Setter Property="VerticalContentAlignment" Value="Center" />
+                <Setter Property="Background" Value="#182c4c"/>
+                <Setter Property="Foreground" Value="#00c040"/>
+                <Setter Property="Margin" Value="5px"/>
+                <Setter Property="Padding" Value="5px"/>
+            </Style>
+
+            <!--Style and template for the DataGrid.-->
+            <Style TargetType="{x:Type DataGrid}">
+                <Setter Property="HorizontalGridLinesBrush" Value="#182c4c" />                
+                <Setter Property="GridLinesVisibility" Value="All" />        
+                <Setter Property="Margin" Value="100 20" />
+            </Style>
+
+        </Grid.Resources>
+        <Grid.Background>
+            <ImageBrush Stretch="Uniform" ImageSource="/images/windmolen.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <StackPanel>
+            <WrapPanel Visibility="Collapsed">
+                <Label Content="Voornaam"></Label>
+                <TextBox x:Name="TB_Voornaam" Width="125"></TextBox>
+            </WrapPanel>
+            <WrapPanel Visibility="Collapsed">
+                <Label Content="Naam"></Label>
+                <TextBox x:Name="TB_Naam" Width="125"></TextBox>
+            </WrapPanel>
+            <ListBox  x:Name="LB_Hobbies" Visibility="Collapsed"></ListBox>
+            <Button Visibility="Collapsed"  x:Name="B_SelectTestSql" 
+                    Content="Test select statement SQL Server" Click="B_SelectTestSql_Click">
+            </Button>
+            <Button  Visibility="Collapsed"  Name="B_Insert" Content="Insert"  Click="B_Insert_Click"></Button>
+            <Button  Visibility="Collapsed" Name="B_InsertFramework" Content="Insert Framework"  Click="B_InsertFramework_Click"></Button>
+            <Button Name="TestMail" Content="Test mail" Click="ButtonTestMail"/>
+
+            <Button Name="B_SelectFramework" Content="Select Framework"  Click="B_SelectFramework_Click"></Button>
+            <Button Name="B_UpdateFramework" Content="Update Framework" Click="B_UpdateFramework_Click" ></Button>
+           <!-- <DataGrid Name="DG_Students" CellEditEnding="DG_Students_CellEditEnding" ></DataGrid>-->
+            <DataGrid  Name="DG_Students" BeginningEdit="DG_Students_BeginningEdit" SelectedCellsChanged="DG_Students_SelectedCellsChanged"/>
+        </StackPanel>
+  
+    </Grid>
+</Window>

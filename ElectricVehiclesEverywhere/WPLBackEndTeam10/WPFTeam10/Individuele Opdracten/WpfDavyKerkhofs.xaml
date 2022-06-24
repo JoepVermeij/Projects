@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPFTeam10.Individeule_Opdracten.WpfDavyKerkhofs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTeam10.Individeule_Opdracten"
+        mc:Ignorable="d"
+        Title="WpfDavyKerkhofs" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel>
+            <WrapPanel>
+                <Label Content="Voornaam"></Label>
+                <TextBox x:Name="TB_Voornaam" Width="125"></TextBox>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Naam"></Label>
+                <TextBox x:Name="TB_Naam" Width="125"></TextBox>
+            </WrapPanel>
+            <ListBox x:Name="LB_Hobbies"></ListBox>
+            <Button x:Name="B_SelectTestSql" 
+                    Content="Test select statement SQL Server" Click="B_SelectTestSql_Click">
+            </Button>
+            <Button Name="B_Insert" Content="Insert" Margin="5" Click="B_Insert_Click"></Button>
+            <Button Name="B_InsertFramework" Content="Insert Framework" Margin="5" Click="B_InsertFramework_Click"></Button>
+            <Button Name="B_SelectFramework" Content="Select Framework" Click="B_SelectFramework_Click"></Button>
+            <DataGrid Name="DG_Students"></DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

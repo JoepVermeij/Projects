@@ -1,0 +1,76 @@
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.exe
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.deps.json
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.runtimeconfig.json
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.runtimeconfig.dev.json
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\ClassLibTeam10.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\ClassLibTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\ClassLibTeam10.dll.config
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.framework.xml
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.csproj.AssemblyReference.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.GeneratedMSBuildEditorConfig.editorconfig
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.AssemblyInfoInputs.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.AssemblyInfo.cs
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.csproj.CoreCompileInputs.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.MvcApplicationPartsAssemblyInfo.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\staticwebassets\WebApiTeam10.StaticWebAssets.Manifest.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.RazorTargetAssemblyInfo.cache
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.csproj.CopyComplete
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.dll
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.pdb
+C:\WPLBackEnd\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.genruntimeconfig.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.exe
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.deps.json
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.runtimeconfig.json
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.runtimeconfig.dev.json
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\WebApiTeam10.pdb
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\ClassLibTeam10.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\ClassLibTeam10.pdb
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\ClassLibTeam10.dll.config
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\bin\Debug\netcoreapp3.1\nunit.framework.xml
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.csproj.AssemblyReference.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.GeneratedMSBuildEditorConfig.editorconfig
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.AssemblyInfoInputs.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.AssemblyInfo.cs
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.csproj.CoreCompileInputs.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.MvcApplicationPartsAssemblyInfo.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\staticwebassets\WebApiTeam10.StaticWebAssets.Manifest.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.RazorTargetAssemblyInfo.cache
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.csproj.CopyComplete
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.dll
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.pdb
+C:\WPLBackEnd - kopie\WPLBackEndTeam10\WebApiTeam10\obj\Debug\netcoreapp3.1\WebApiTeam10.genruntimeconfig.cache

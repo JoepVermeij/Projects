@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFTeam10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTeam10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Bestand"></MenuItem>
+                <MenuItem Header="Individuele opdrachten">
+                    <MenuItem Header="Benjamin Vanhees" Name="MnuBenjaminVanhees" Click="MnuBenjaminVanhees_Click"></MenuItem>
+                    <MenuItem Header="Ben Sleurs" Name="MnuBenSleurs" Click="MnuBenSleurs_Click"></MenuItem>
+                    <MenuItem Header="Davy Kerkhofs" Name="MnuDavyKerkhofs" Click="MnuDavyKerkhofs_Click"></MenuItem>
+                    <MenuItem Header="Joep Vermeij" Name="MnuJoepVermeij" Click="MnuJoepVermeij_Click" ></MenuItem>
+                    <MenuItem Header="Evaert Kristof" Name="MnuEvaertKristof" Click="MnuEvaertKristof_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Settings">
+                    <MenuItem Header="SQL Server - settings" Name="MnuSettings" Click="MnuSettings_Click"></MenuItem>
+                </MenuItem>
+            </Menu>   
+        </DockPanel>
+        
+    </Grid>
+</Window>
