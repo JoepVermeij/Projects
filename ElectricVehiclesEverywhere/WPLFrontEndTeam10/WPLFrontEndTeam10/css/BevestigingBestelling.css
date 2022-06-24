@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Koliko Regular";
+    src: url("../assets/fonts/koliko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Light";
+    src: url("../assets/fonts/koliko-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Bold";
+    src: url("../assets/fonts/koliko-Bold.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    min-height: calc(100vh - 270px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

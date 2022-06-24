@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Koliko Regular";
+    src: url("../assets/fonts/koliko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Light";
+    src: url("../assets/fonts/koliko-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Bold";
+    src: url("../assets/fonts/koliko-Bold.ttf") format("truetype");
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding-block: 100px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contactinfo h3, .openingsuren h3 {
+    font-family: "Koliko Regular", sans-serif;
+    margin-bottom: 5%;
+}
+
+.contactinfo p, .openingsuren p {
+    margin-bottom: 1%;
+}
+
+.contact_info_buttons p {
+    transform: scale(1);
+    transition: 500ms  all ease-in-out;
+    margin-bottom: 1em;
+}
+
+.contact_info_buttons a {
+    margin: 0 0 0 0;
+    background-color: #182c4c;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.openingsuren {
+    margin-bottom: 20%;
+}
+
+.map {
+    width: 72%;
+    margin-top: 1ch;
+}
+
+.mapouter iframe {
+    width:90% ;
+    height: 450px;
+    padding: 1rem;
+    border: 1px solid #182c4c;
+    border-radius: 5px;
+}
+
+.gmap_canvas {
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+    background:none;
+    width: 100%;
+}
+
+.contactinfo_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactinfo_container_adres {
+    width: 65%;
+    border: 1px solid #182c4c;
+    border-radius: 5px;
+    margin: 1ch;
+    height: 25ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+}
+
+.contactinfo_container_adres img {
+    height: 5ch;
+    margin: 2ch;
+}
+
+.contactinfo_container_text {
+    height: 16ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contactinfo_container_text h3 {
+    color: #00c040;
+}
+
+.contactinfo_container_text p {
+    color: #182c4c;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #182C4C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c040;
+    border: 6px solid #182C4C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+
+@media screen and (min-width: 576px) {
+    .contactinfo_container_adres {
+        width: 40%}
+    .main {
+        min-height: calc(100% - 270px);
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    .map {
+        justify-content: center;
+        margin-top: 0;
+    }
+    .mapouter iframe {
+         width:90% ;
+         height: 52ch;
+    }
+    .footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media(hover) {
+    .contact_info_buttons p:hover {
+        transform: scale(1.1);
+    }
+    .contact_info_buttons a:hover {
+        background: #182c4c;
+    }
+}

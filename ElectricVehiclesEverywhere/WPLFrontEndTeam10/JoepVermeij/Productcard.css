@@ -1,0 +1,139 @@
+body{
+    background: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    --paddingcard: 10rem;
+    padding: var(--paddingcard) 0 0;
+    width: 50rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    transform: scale(1);
+    margin: 2rem;
+}
+.card-tesla{
+    background-image: url("Assets/Tesla Model 3.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+.card-Aventon{
+    background-image: url("Assets/2020_Aventon_Level_StoneGrey_StudioPhotos_001.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-content{
+    color: #182C4C;
+    --padding: 2rem;
+    padding: var(--padding);
+    background: linear-gradient(
+    rgba(230, 230, 230, 0),
+    rgba(230, 230, 230, .8) 30%,
+    rgba(230, 230, 230, 1)
+    );
+}
+
+@media (hover){
+  .card-content{
+      transform:translateY(50%);
+      transition: transform 500ms ease;
+  }
+    .card:hover .card-content, .card:focus-within .card-content{
+        transform: translateY(0);
+        transition-delay: 500ms;
+    }
+    .card:focus-within .card-content{
+        transition-duration: 0ms;
+    }
+
+    .card-content> *:not(.card-title, .card-price){
+        opacity: 0;
+        transition: opacity 500ms linear;
+    }
+
+    .card-title::after, .card-price::after{
+        transform: scaleX(0);
+    }
+    .card:hover .card-title::after, .card:focus-within .card-title::after,
+    .card:hover .card-price::after, .card:focus-within .card-price::after{
+        transform: scaleX(1);
+    }
+}
+
+.card:hover .card-content > *:not(.card-title, .card-price),
+.card:focus-within .card-content > *:not(.card-title, .card-price){
+    opacity: 1;
+    transition-delay: 800ms;
+}
+
+.card-title{
+    position: relative;
+    width: max-content;
+}
+.card-title::after{
+    content:'';
+    position: absolute;
+    height: 0.2rem;
+    left: calc(var(--padding)*-1);
+    bottom: -5px;
+    /*width: calc(100% + var(--padding));*/
+    width: 25rem;
+    background: #00C040;
+    transform-origin: right;
+    transition: transform 500ms ease;
+ }
+.card-price{
+    position: relative;
+    float: right;
+    width: max-content;
+}
+.card-price::after{
+    content:'';
+    position: absolute;
+    height: 0.2rem;
+    right: calc(var(--padding)*-1);
+    width: 25rem;
+    bottom: -5px;
+    /*width: calc(100% + var(--padding));*/
+    background: #00C040;
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+.card-button{
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.25rem;
+    color: black;
+}
+.card-button:hover, .card-button:focus{
+    background-color: #00C040;
+}
+.isDisabled .card-content .card-button{
+    color: lightgray;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.isDisabled .card-content .card-button:hover{
+    background: none;
+}
+.isDisabled::before{
+    display: block;
+    content: 'Not Available';
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 0 0 5rem;
+    position: relative;
+    top: -5rem;
+    background-color: #00C040;
+}
+.isDisabled{
+    padding: calc(var(--paddingcard) - 1.7rem )0 0;
+}

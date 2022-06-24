@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Productcard</title>
+    <link rel="stylesheet" href="../css/AlgemeneStijl.css">
+    <link rel="stylesheet" href="../css/FooterStijl.css">
+    <link rel="stylesheet" href="../css/NavBarStijlFilled.css">
+    <link rel="stylesheet" href="../css/WinkelmandPageForRentStijl.css">
+    <link rel="stylesheet" href="../css/Individueel/BenSleurs/KalenderStijlWinkelmand.css">
+    <script defer src="../js/Fetch/fetch.js"></script>
+    <script defer src="../js/Functions/JSNavBar.js"></script>
+    <script defer src="../js/Functions/JSModal.js"></script>
+    <script defer src="../js/Page/JSWinkelMandPage.js"></script>
+    <script defer src="../js/Functions/Kalender.js"></script>
+
+
+</head>
+<body>
+
+<nav id="nav" class="navibar">
+    <div id="subnav">
+        <div id="desktopnav">
+            <a class="navbutton" href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+            <a class="navbutton" href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+            <div id="imgcontainer">
+                <a class="eve-logo" href="../html/HomepageForRent.html"></a>
+            </div>
+            <a class="navbutton" href="../html/ContactpageForRent.html">CONTACT</a>
+            <a class="navbutton" id="inlogbutton" href="../html/LoginpageForRent.html">INLOGGEN</a>
+        </div>
+        <div class="dropdown">
+            <svg id="hamburgermenu" onclick="ShowMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20" style="fill:rgb(0,192,64);"></rect>
+                <rect y="30" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                <rect y="60" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+            </svg>
+            <svg id="crossmenu" class="hide-element" onclick="HideMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <line x1="10" y1="10" x2="90" y2="80" stroke=#00c040 stroke-width="20"></line>
+                <line x1="90" y1="10" x2="10" y2="80" stroke=#00c040 stroke-width="20"></line>
+            </svg>
+        </div>
+    </div>
+    <a href="WinkelmandPageForRent.html" id="navwinkelmandcontainer">
+        <img src="../assets/icons/BasketIcon.svg" id="navwinkelmand" alt="">
+    </a>
+    <div class="dropdown-content2 hide-element">
+        <a id="winkelmandhamburgermenu" href="../html/WinkelmandPageForRent.html">WINKELMAND</a>
+        <a href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+        <a href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+        <a href="../html/ContactpageForRent.html">CONTACT</a>
+        <a id="inlogbuttonhamburger" href="../html/LoginpageForRent.html">INLOGGEN</a>
+    </div>
+</nav>
+
+<div id="notnav">
+
+    <h1>Overzicht reservaties</h1>
+
+<!--
+    <div class="modal">
+        <div class="modal-content">
+            <p class="bankgegevens-invullen">
+                Gelieve uw bankgegevens in te vullen om een bestelling te kunnen plaatsen
+            </p>
+            <form action="#">
+                <div class="gegevens">
+                    <label for="rekeninghouder">Rekeninghouder:</label>
+                    <input type="text" id="rekeninghouder" required>
+                </div>
+                <div class="gegevens">
+                    <label for="iban">IBAN:</label>
+                    <input type="text" id="iban" required>
+                </div>
+                <div class="gegevens">
+                    <label for="vervaldatum">Vervaldatum:</label>
+                    <input type="date" id="vervaldatum" required>
+
+                </div>
+                <div class="check">
+                    <input id="gegevens-opslaan" type="checkbox" checked>
+                    <label for="gegevens-opslaan">Gegevens opslaan</label>
+                </div>
+                <button type="submit">Verdergaan</button>
+            </form>
+        </div>
+    </div>
+-->
+
+    <div id="winkelmandContainer">
+        <div id="winkelMandje">
+
+        </div>
+    </div>
+
+    <div id="totaalEnBestel">
+        <div class="totaalPrijsContainer">
+            <p id="totaalRekening">Totaalprijs: </p>
+            <p id="totaalRekeningBedrag"></p>
+        </div>
+        <div class="buttonContainer">
+            <button id="test" onclick="continueShopping()">Verder winkelen</button>
+            <button id="bevestig" onclick="bevestigingClick()">Bestelling bevestigen</button>
+        </div>
+    </div>
+    <footer class="footer menuhide flex-element" id="footer">
+        <div class="footer-adres">
+            <p>Hoofdkantoor Hasselt<br><span class="accent-white">Kempische Steenweg 293<br>3500 Hasselt</span></p>
+            <div class="footer-adres-buttons">
+                <p>(+32)499/22.55.55</p>
+                <a href="#">EVE@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-socialmedia">
+            <p>Follow Us</p>
+            <a class="footer-socialmedia-icon-facebook" href="#"></a>
+            <a class="footer-socialmedia-icon-linkedin" href="#"></a>
+            <a class="footer-socialmedia-icon-snapchat" href="#"></a>
+            <a class="footer-socialmedia-icon-twitter" href="#"></a>
+            <a class="footer-socialmedia-icon-youtube" href="#"></a>
+        </div>
+        <div class="footer-top">
+            <p class="footer-top-toptext">Website designed by</p>
+            <a class="footer-top-logo" href="#"></a>
+            <p class="footer-top-bottomtext">Copyright © 2022 Team OverPowered</p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>

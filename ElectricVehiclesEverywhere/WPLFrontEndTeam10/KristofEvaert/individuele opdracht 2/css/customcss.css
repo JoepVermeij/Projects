@@ -1,0 +1,188 @@
+@media screen and (max-width: 500px) {
+
+    .cardauto {
+        background-image: url("../assets/3 rustige weg Visualhunt.svg");
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 7%;
+        border: black solid 2px;
+        width: 75%;
+        border-radius: 50px;
+        min-width: 400px;
+        height: 500px;
+    }
+
+    .titel {
+        margin: 20% 5% 5% 5%;
+    }
+
+    .titel h1 {
+        font-size: 30px;
+        margin: -10% 0 0 10%;
+        color: #e6e6e6;
+    }
+    .titel h3{
+        margin: 10% 0 0 10%;
+        color: #e6e6e6;
+    }
+
+    .text {
+        font-size: 15px;
+        margin-top: 15%;
+        color: #e6e6e6;
+    }
+    .text ul{
+
+        margin: -10% 0 10% 10%;
+
+    }
+
+
+    .auto img {
+        width: 95%;
+        height: auto;
+        margin: 5% 2% 0 2%;
+        border-radius: 0 0 50px 50px;
+
+    }
+
+    #labelbesckikbaar {
+
+        margin: 7% 0 0 10%
+    }
+
+    .huurmij {
+        margin: 5% 5% 0 20%;
+        padding: 3%;
+    }
+    .beschik-huur{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+
+}
+@media  screen and (min-width: 501px) and (max-width:1200px) {
+    .cardauto {
+        background-image: url("../assets/3 rustige weg Visualhunt.svg");
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 7%;
+        border: black solid 2px;
+        width: 75%;
+        border-radius: 50px;
+        min-width: 400px;
+        height: 500px;
+    }
+    .titel {
+        margin: 15% 0 0 0%;
+    }
+    .titel h1 {
+        font-size: 30px;
+        margin: -10% 0 0 10%;
+        color: #e6e6e6;
+    }
+    .titel h3{
+        margin: 5% 0 0 10%;
+        color: #e6e6e6;
+    }
+    .text {
+        font-size: 20px;
+        margin-top: 15%;
+        color: #e6e6e6;
+    }
+    .text ul{
+        margin: -10% 0 10% 10%;
+    }
+    .text lu li{
+        font-size: 25px;
+    }
+    .auto img {
+        width: 75%;
+        height: auto;
+        margin: -10% 0% 0 40%;
+
+    }
+    #labelbesckikbaar {
+
+        margin: 7% 0 0 0;
+    }
+    .huurmij {
+        margin: 5% 2% 0 20%;
+        padding: 3%;
+    }
+
+    .beschik-huur{
+        display: flex;
+        flex-flow: row nowrap;
+        margin: -25% 0 0 -25%;
+    }
+}
+@media  screen and (min-width: 1201px) {
+    .cardauto {
+        background-image: url("../assets/3 rustige weg Visualhunt.svg");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 7%;
+        border: black solid 2px;
+        width: 75%;
+        border-radius: 50px;
+        min-width: 1400px;
+        height: 500px;
+    }
+    .titel {
+        margin: 15% 0 0 0%;
+    }
+    .titel h1 {
+        font-size: 50px;
+        margin: 0 0 0 5%;
+        color: #e6e6e6;
+    }
+    .titel h3{
+        font-size: 30px;
+        margin: 5% 0 0 10%;
+        color: #e6e6e6;
+    }
+    .text {
+        font-size: 20px;
+        margin-top: 15%;
+        color: #e6e6e6;
+    }
+    .text ul{
+        font-size: 30px;
+        color: black;
+        margin: -35% 0 9% 60%;
+    }
+    .text ul li{
+        font-size: 30px;
+        color: black;
+        margin-bottom: 5%;
+
+    }
+    .auto img {
+        width: 75%;
+        height: auto;
+        margin: -10% 0% 0 40%;
+
+    }
+    #labelbesckikbaar {
+        font-size: 25px;
+        margin: 3% 0 0 0;
+    }
+    .huurmij {
+        font-size: 25px;
+        margin: 0% 9% 0 20%;
+        padding: 3%;
+    }
+
+    .beschik-huur{
+        display: flex;
+        flex-flow: row nowrap;
+        margin: -25% 0 0 -25%;
+    }
+}
+
+
+
+

@@ -1,0 +1,75 @@
+.bestellingenContainer {
+    min-height: calc(100vh - 670px);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+}
+
+.bestellingContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/images/EV_Charging.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bestellingenTabel {
+    width: 100%;
+    background: rgba(24, 44, 76, .8);
+    padding: .5rem 0;
+}
+
+th {
+    font-family: "Koliko Regular", sans-serif;
+    color: #00c040;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+.bestellingItem td {
+    font-family: Roboto, sans-serif;
+    font-size: small;
+    color: #fff;
+    padding-bottom: .5rem;
+}
+
+.annuleerKnop {
+    color: var(--accent-red);
+    background-color: #fff;
+    padding: .1rem .5rem;
+    border: 2px solid #00c040;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all ease-in-out 500ms;
+}
+
+.annuleerKnop:hover,
+.annuleerKnop:active {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 576px) {
+    .bestellingenContainer {
+        min-height: calc(100vh - 270px);
+    }
+    #bestellingenTabel {
+        padding: .5rem 1rem;
+    }
+    th {
+        font-size: x-large;
+    }
+    .bestellingItem td {
+        font-size: large;
+    }
+    .bestellingItem td:nth-child(6) {
+        text-align: center;
+    }
+    .annuleerKnop {
+        padding: .5rem 2rem;
+    }
+}

@@ -1,0 +1,281 @@
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.footer {
+    background: #182c4c;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 600px;
+    padding: 0 7px;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 2px;
+    background: linear-gradient(
+        rgba(24, 44, 76, 30),
+        rgba(24, 44, 76, 30) 10%,
+        rgba(255, 255, 255, 1)
+    );
+    opacity: 25%;
+}
+
+.footer::after {
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 2px;
+    background: linear-gradient(
+            rgba(24, 44, 76, 30),
+            rgba(24, 44, 76, 30) 10%,
+            rgba(255, 255, 255, 1)
+    );
+    right: 7px;
+    opacity: 25%;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-top-toptext {
+    color: #00c040;
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer-top-bottomtext {
+    font-size: .5rem;
+    color: #00c040;
+    margin: 0;
+}
+
+.footer-top-logo {
+    height: 70px;
+    width: 100px;
+    background: url("../assets/icons/TopLogoFinal.svg") no-repeat;
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+    transition: all ease-in-out 500ms;
+    margin: 0;
+}
+
+.footer-socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-socialmedia p {
+    color: #00c040;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 1rem 0;
+}
+
+.footer-socialmedia-icon-facebook {
+    height: 48px;
+    width: 48px;
+    background: url("../assets/icons/FacebookIcon.svg") no-repeat;
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+    margin: 0 .5rem 0 0;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-socialmedia-icon-facebook:hover {
+    transform: scale(1.1);
+}
+
+.footer-socialmedia-icon-linkedin {
+    height: 48px;
+    width: 48px;
+    background: url("../assets/icons/LinkedInIcon.svg") no-repeat;
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+    margin: 0 .5rem 0 .5rem;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-socialmedia-icon-linkedin:hover {
+    transform: scale(1.1);
+}
+
+.footer-socialmedia-icon-snapchat {
+    height: 48px;
+    width: 48px;
+    background: url("../assets/icons/SnapchatIcon.svg") no-repeat;
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+    margin: 0 .5rem 0 .5rem;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-socialmedia-icon-snapchat:hover {
+    transform: scale(1.1);
+}
+
+.footer-socialmedia-icon-twitter {
+    height: 48px;
+    width: 48px;
+    background: url("../assets/icons/TwitterIcon.svg") no-repeat;
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+    margin: 0 .5rem 0 .5rem;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-socialmedia-icon-twitter:hover {
+    transform: scale(1.1);
+}
+
+.footer-socialmedia-icon-youtube {
+    height: 48px;
+    width: 48px;
+    background: url("../assets/icons/YoutubeIcon.svg") no-repeat;
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+    margin: 0 0 0 .5rem;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-socialmedia-icon-youtube:hover {
+    transform: scale(1.1);
+}
+
+.footer-adres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-adres p {
+    font-family: Roboto, sans-serif;
+    color: #00c040;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-adres-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-adres-buttons p {
+    width:200px;
+    color: #00c040;
+    background-color: #ffffff;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-radius: 50px;
+    margin: .5rem .5rem 0 .5rem;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-adres-buttons a {
+    width:200px;
+    color: #00c040;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-radius: 50px;
+    margin: .5rem .5rem 0 .5rem;
+    transition: all ease-in-out 500ms;
+}
+
+
+@media screen and (min-width:1300px) {
+    .footer-adres-buttons {
+         color: #ffffff;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .footer {
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .footer::before {
+        display: none;
+    }
+
+    .footer::after {
+        display: none;
+    }
+
+    .footer-top, .footer-adres,
+    .footer-socialmedia {
+        width: 33%;
+    }
+
+    .footer-adres {
+        order: 3;
+    }
+
+    .footer-socialmedia {
+        order: 2;
+    }
+
+    .footer-top::before {
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 2px;
+        background: black;
+        margin: 0 0 0 33%;
+        background: linear-gradient(
+                rgba(24, 44, 76, 30),
+                rgba(24, 44, 76, 1) 10%,
+                rgba(255, 255, 255, 1)
+        );
+        opacity: 25%;
+    }
+
+    .footer-adres::before {
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 2px;
+        background: black;
+        margin: 0 33% 0 0 ;
+        background: linear-gradient(
+                rgba(24, 44, 76, 30),
+                rgba(24, 44, 76, 1) 10%,
+                rgba(255, 255, 255, 1)
+        );
+        opacity: 25%;
+    }
+
+    .footer-top-logo:hover {
+        transform: scale(1.2);
+    }
+
+    .footer-socialmedia-icon-facebook:hover,
+    .footer-socialmedia-icon-linkedin:hover,
+    .footer-socialmedia-icon-snapchat:hover,
+    .footer-socialmedia-icon-twitter:hover,
+    .footer-socialmedia-icon-youtube:hover {
+        transform: scale(1.2);
+    }
+
+    .footer-adres-buttons p:hover,
+    .footer-adres-buttons a:hover {
+        transform: scale(1.1);
+        color: #ffffff;
+        background-color: #00c040;
+    }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LoginpageForRent</title>
+    <link rel="stylesheet" href="../css/AlgemeneStijl.css">
+    <link rel="stylesheet" href="../css/NavBarStijlFilled.css">
+    <link rel="stylesheet" href="../css/LoginpageForRentStijl.css">
+    <link rel="stylesheet" href="../css/FooterStijl.css">
+    <script defer src="../js/Fetch/fetch.js"></script>
+    <script defer src="../js/JQuery/jquery-3.5.1.min.js"></script>
+    <script defer src="../js/Functions/JSNavBar.js"></script>
+    <script defer src="../js/Functions/JSWachtwoord.js"></script>
+    <script defer src="../js/Functions/JSTabFuncionaliteit.js"></script>
+    <script defer src="../js/Functions/JSModal.js"></script>
+    <script defer src="../js/Page/JSLoginPage.js"></script>
+
+</head>
+<body>
+
+<nav id="nav" class="navibar">
+    <div id="subnav">
+        <div id="desktopnav">
+            <a class="navbutton" href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+            <a class="navbutton" href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+            <div id="imgcontainer">
+                <a class="eve-logo" href="../html/HomepageForRent.html"></a>
+            </div>
+            <a class="navbutton" href="../html/ContactpageForRent.html">CONTACT</a>
+            <a class="navbutton" id="inlogbutton" href="../html/LoginpageForRent.html">INLOGGEN</a>
+        </div>
+        <div class="dropdown">
+            <svg id="hamburgermenu" onclick="ShowMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20" style="fill:rgb(0,192,64);"></rect>
+                <rect y="30" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                <rect y="60" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+            </svg>
+            <svg id="crossmenu" class="hide-element" onclick="HideMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <line x1="10" y1="10" x2="90" y2="80" stroke=#00c040 stroke-width="20"></line>
+                <line x1="90" y1="10" x2="10" y2="80" stroke=#00c040 stroke-width="20"></line>
+            </svg>
+        </div>
+    </div>
+    <a href="WinkelmandPageForRent.html" id="navwinkelmandcontainer">
+        <img src="../assets/icons/BasketIcon.svg" id="navwinkelmand" alt="">
+    </a>
+    <div class="dropdown-content2 hide-element">
+        <a id="winkelmandhamburgermenu" href="../html/WinkelmandPageForRent.html">WINKELMAND</a>
+        <a href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+        <a href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+        <a href="../html/ContactpageForRent.html">CONTACT</a>
+        <a id="inlogbuttonhamburger" href="../html/LoginpageForRent.html">INLOGGEN</a>
+    </div>
+</nav>
+
+<div id="notnav">
+    <div id="login-container" class="login-container flex-element">
+        <div id="login-innercontainer" class="login-innercontainer">
+            <div id="tabs" class="tabs">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked onclick="logIn()">
+                <label for="tab-1" class="tab">INLOGGEN</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up" onclick="maakAccount()">
+                <label for="tab-2" class="tab">ACCOUNT MAKEN</label>
+            </div>
+            <div class="login-form">
+                <form id="sign-in-html" action="" method="post" autocomplete="on">
+                    <div class="sign-in-group">
+                        <label for="email-sign-in" class="label" >E-mail <span class="accent-red">*</span></label>
+                        <input id="email-sign-in" type="text" class="input" required>
+                    </div>
+                    <div class="sign-in-group">
+                        <label for="wachtwoord-sign-in" class="label">Wachtwoord <span class="accent-red">*</span></label>
+                        <input id="wachtwoord-sign-in" type="password" class="input" required>
+                        <label class="check"><input type="checkbox" onclick="toonWachtwoordSignIn()"> Toon wachtwoord</label>
+                    </div>
+                    <div class="sign-in-group">
+                        <p><span class="accent-red">*</span> Verplichte velden</p>
+                        <div class="hr"></div>
+                        <input type="submit" class="button" value="INLOGGEN">
+                        <label class="check"><input id="staySignuped" type="checkbox" checked> Hou me ingelogd</label>
+                    </div>
+                    <div class="bottom-link">
+                        <a href="../html/ProfilepageForRent.html">Wachtwoord vergeten?</a>
+                    </div>
+                </form>
+                <form id="sign-up-html" method="post" autocomplete="on">
+                    <div class="sign-up-group">
+                        <label for="email-sign-up" class="label" >E-mail <span class="accent-red">*</span></label>
+                        <input id="email-sign-up" type="text" class="input" required>
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="wachtwoord-sign-up" class="label">Wachtwoord <span class="accent-red">*</span></label>
+                        <input id="wachtwoord-sign-up" type="password" class="input" required>
+                        <label class="check"><input type="checkbox" onclick="toonWachtwoordSignUp()"> Toon wachtwoord</label>
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="voornaam" class="label">Voornaam</label>
+                        <input type="text" id="voornaam" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="naam" class="label">Naam</label>
+                        <input type="text" id="naam" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="geboortedatum" class="label">Geboortedatum</label>
+                        <input type="date" id="geboortedatum" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="telefoonnummer" class="label">Telefoonnummer</label>
+                        <input type="text" id="telefoonnummer" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label class="label">Rijbewijs</label>
+                        <label class="check"><input id="rijbewijsA" type="checkbox"> A</label>
+                        <label class="check"><input id="rijbewijsB" type="checkbox"> B</label>
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="adres" class="label">Straatnaam</label>
+                        <input type="text" id="adres" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="huisnummer" class="label">Huisnummer</label>
+                        <input type="text" id="huisnummer" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="bus" class="label">Bus</label>
+                        <input type="text" id="bus" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="gemeente" class="label">Gemeente</label>
+                        <input type="text" id="gemeente" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="postcode" class="label">Postcode</label>
+                        <input type="text" id="postcode" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="iban" class="label">IBAN</label>
+                        <input type="text" id="iban" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="rekeninghouder" class="label">Rekeninghouder</label>
+                        <input type="text" id="rekeninghouder" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <label for="vervaldatum" class="label">Vervaldatum</label>
+                        <input type="date" id="vervaldatum" class="input">
+                    </div>
+                    <div class="sign-up-group">
+                        <p><span class="accent-red">*</span>Verplichte velden</p>
+                        <div class="hr"></div>
+                        <input type="submit" class="button" value="ACCOUNT AANMAKEN">
+                    </div>
+                    <div class="bottom-link">
+                        <a href="../html/HomepageForRent.html">Drive The Future Today</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--<div id="loginModal" class="modal">
+            <div class="modal-content">
+                <p>Geef een geldige email en/of wachtwoord.</p>
+                <button class="button" onclick="closeModal()">Ok</button>
+            </div>
+        </div>-->
+    </div>
+
+    <footer class="footer menuhide flex-element" id="footer">
+        <div class="footer-adres">
+            <p>Hoofdkantoor Hasselt<br><span class="accent-white">Kempische Steenweg 293<br>3500 Hasselt</span></p>
+            <div class="footer-adres-buttons">
+                <p>(+32)499/22.55.55</p>
+                <a href="#">EVE@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-socialmedia">
+            <p>Follow Us</p>
+            <a class="footer-socialmedia-icon-facebook" href="#"></a>
+            <a class="footer-socialmedia-icon-linkedin" href="#"></a>
+            <a class="footer-socialmedia-icon-snapchat" href="#"></a>
+            <a class="footer-socialmedia-icon-twitter" href="#"></a>
+            <a class="footer-socialmedia-icon-youtube" href="#"></a>
+        </div>
+        <div class="footer-top">
+            <p class="footer-top-toptext">Website designed by</p>
+            <a class="footer-top-logo" href="#"></a>
+            <p class="footer-top-bottomtext">Copyright © 2022 Team OverPowered</p>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

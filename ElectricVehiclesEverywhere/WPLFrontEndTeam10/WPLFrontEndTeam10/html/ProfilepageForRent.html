@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProfilePageForRent</title>
+    <link rel="stylesheet" href="../css/AlgemeneStijl.css">
+    <link rel="stylesheet" href="../css/NavBarStijlFilled.css">
+    <link rel="stylesheet" href="../css/ProfilepageForRentStijl.css">
+    <link rel="stylesheet" href="../css/FooterStijl.css">
+<!--    <script defer src="../js/jquery-3.5.1.min.js"></script>-->
+    <script defer src="../js/Fetch/fetch.js"></script>
+    <script defer src="../js/Functions/JSNavBar.js"></script>
+    <script defer src="../js/Functions/JSModal.js"></script>
+<!--    <script defer src="https://smtpjs.com/v3/smtp.js"></script>-->
+    <script defer src="../js/Page/JSProfilePage.js"></script>
+
+</head>
+<body>
+<nav id="nav" class="navibar">
+    <div id="subnav">
+        <div id="desktopnav">
+            <a class="navbutton" href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+            <a class="navbutton" href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+            <div id="imgcontainer">
+                <a class="eve-logo" href="../html/HomepageForRent.html"></a>
+            </div>
+            <a class="navbutton" href="../html/ContactpageForRent.html">CONTACT</a>
+            <a class="navbutton" id="inlogbutton" href="../html/LoginpageForRent.html">INLOGGEN</a>
+        </div>
+        <div class="dropdown">
+            <svg id="hamburgermenu" onclick="ShowMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20" style="fill:rgb(0,192,64);"></rect>
+                <rect y="30" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                <rect y="60" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+            </svg>
+            <svg id="crossmenu" class="hide-element" onclick="HideMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <line x1="10" y1="10" x2="90" y2="80" stroke=#00c040 stroke-width="20"></line>
+                <line x1="90" y1="10" x2="10" y2="80" stroke=#00c040 stroke-width="20"></line>
+            </svg>
+        </div>
+    </div>
+    <a href="WinkelmandPageForRent.html" id="navwinkelmandcontainer">
+        <img src="../assets/icons/BasketIcon.svg" id="navwinkelmand" alt="">
+    </a>
+    <div class="dropdown-content2 hide-element">
+        <a id="winkelmandhamburgermenu" href="../html/WinkelmandPageForRent.html">WINKELMAND</a>
+        <a href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+        <a href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+        <a href="../html/ContactpageForRent.html">CONTACT</a>
+        <a id="inlogbuttonhamburger" href="../html/LoginpageForRent.html">INLOGGEN</a>
+    </div>
+</nav>
+
+<div id="notnav">
+    <div id="profilecontainer">
+        <div id="containerlinks" class="profiel-box">
+            <!-- <a href="#">OVERZICHT</a> -->
+            <a href="BestellingPageForRent.html">BESTELLINGEN</a>
+            <a href="../html/HomepageForRent.html" onclick="uitloggen()" id="uitloggen" >UITLOGGEN</a>
+            <button onclick="GegevensWijzigen()" class="wijzigen" id="persoonlijkegegevens-wijzigen">WIJZIGEN</button>
+            <button onclick="GegevensOpslaan()" style="display: none" class="wijzigen" id="persoonlijkegegevens-opslaan">OPSLAAN</button>
+            <button onclick="openVerwijderModal()" class="verwijderen" id="persoonlijkegegevens-verwijderen">VERWIJDEREN</button>
+        </div>
+        <div id="containerrechts">
+            <div class="profiel-box gegevens-box">
+                <h2>INLOG GEGEVENS</h2>
+                <p class="profiel-text-title">USERNAME</p>
+                <p id="profiel-username" class="profiel-text-box">☻☻☻☻ Putin is watching ☻☻☻☻</p>
+                <p class="profiel-text-title">WACHTWOORD</p>
+                <p id="profiel-wachtwoord" class="profiel-text-box"></p>
+                <input id="profiel-wachtwoord-input" class="profiel-input-box" autocomplete="off" type="password" value="********">
+            </div>
+            <div id="persoonlijkegegevens-box" class="profiel-box gegevens-box">
+                <h2>PERSOONLIJKE GEGEVENS</h2>
+                <p class="profiel-text-title">KLANTNUMMER</p>
+                <p id="profiel-klantnummer" class="profiel-text-box">Test Content</p>
+                <p class="profiel-text-title">VOORNAAM</p>
+                <p id="profiel-voornaam" class="profiel-text-box" >Test Content</p>
+                <input id="profiel-voornaam-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">ACHTERNAAM</p>
+                <p id="profiel-achternaam" class="profiel-text-box">Test Content</p>
+                <input id="profiel-achternaam-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">TELEFOON</p>
+                <p id="profiel-telefoon" class="profiel-text-box">Test Content</p>
+                <input id="profiel-telefoon-input" class="profiel-input-box" type="tel">
+                <p class="profiel-text-title">E-MAIL</p>
+                <p id="profiel-profielemail" class="profiel-text-box">Test Content</p>
+                <p class="profiel-text-title">RIJBEWIJS</p>
+                <p id="profiel-rijbewijs" class="profiel-text-box" >Test Content</p>
+                <div id="profiel-input-box-rijbewijs">
+                    <label>
+                        <input id="profiel-rijbewijsA-input" class="profiel-input-box-checkbox" type="checkbox" value="rijbewijs A"> A</label>
+                    <label>
+                        <input id="profiel-rijbewijsB-input" class="profiel-input-box-checkbox" type="checkbox" value="rijbewijs B"> B</label>
+                </div>
+                <p class="profiel-text-title">GEBOORTEDATUM</p>
+                <p id="profiel-geboortedatum" class="profiel-text-box" >Test Content</p>
+                <input id="profiel-geboortedatum-input" class="profiel-input-box" type="date">
+            </div>
+            <div class="profiel-box gegevens-box">
+                <h2>ADRES GEGEVENS</h2>
+                <p class="profiel-text-title">STRAATNAAM</p>
+                <p id="profiel-adres" class="profiel-text-box">Test Content</p>
+                <input id="profiel-adres-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">HUISNUMMER</p>
+                <p id="profiel-huisnummer" class="profiel-text-box">Test Content</p>
+                <input id="profiel-huisnummer-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">BUS</p>
+                <p id="profiel-bus" class="profiel-text-box">Test Content</p>
+                <input id="profiel-bus-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">GEMEENTE</p>
+                <p id="profiel-woonplaats" class="profiel-text-box">Test Content</p>
+                <input id="profiel-woonplaats-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">POSTCODE</p>
+                <p id="profiel-postcode" class="profiel-text-box">Test Content</p>
+                <input id="profiel-postcode-input" class="profiel-input-box" type="number">
+            </div>
+            <div id="betaalgegevens-box" class="profiel-box gegevens-box">
+                <h2>BETAAL GEGEVENS</h2>
+                <p class="profiel-text-title">REKENINGHOUDER</p>
+                <p id="profiel-bankrekeninghouder" class="profiel-text-box">test content</p>
+                <input id="profiel-bankrekeninghouder-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">IBAN</p>
+                <p id="profiel-iban" class="profiel-text-box">test content</p>
+                <input id="profiel-iban-input" class="profiel-input-box" type="text">
+                <p class="profiel-text-title">VERVALDATUM</p>
+                <p id="profiel-bankvervaldatum" class="profiel-text-box">test content</p>
+                <input id="profiel-bankvervaldatum-input" class="profiel-input-box" type="date">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer menuhide flex-element" id="footer">
+        <div class="footer-adres">
+            <p>Hoofdkantoor Hasselt<br><span class="accent-white">Kempische Steenweg 293<br>3500 Hasselt</span></p>
+            <div class="footer-adres-buttons">
+                <p>(+32)499/22.55.55</p>
+                <a href="#">EVE@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-socialmedia">
+            <p>Follow Us</p>
+            <a class="footer-socialmedia-icon-facebook" href="#"></a>
+            <a class="footer-socialmedia-icon-linkedin" href="#"></a>
+            <a class="footer-socialmedia-icon-snapchat" href="#"></a>
+            <a class="footer-socialmedia-icon-twitter" href="#"></a>
+            <a class="footer-socialmedia-icon-youtube" href="#"></a>
+        </div>
+        <div class="footer-top">
+            <p class="footer-top-toptext">Website designed by</p>
+            <a class="footer-top-logo" href="#"></a>
+            <p class="footer-top-bottomtext">Copyright © 2022 Team OverPowered</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

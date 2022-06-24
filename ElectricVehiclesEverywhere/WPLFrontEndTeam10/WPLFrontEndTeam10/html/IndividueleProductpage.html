@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Productpagina</title>
+    <link rel="stylesheet" href="../css/AlgemeneStijl.css">
+    <link rel="stylesheet" href="../css/NavBarStijlFilled.css">
+    <link rel="stylesheet" href="../css/FooterStijl.css">
+    <link rel="stylesheet" href="../css/IndividueleProductpageStijl.css">
+    <link rel="stylesheet" href="../css/Individueel/BenSleurs/KalenderStijl.css">
+    <script defer src="../js/Fetch/fetch.js"></script>
+    <script defer src="../js/JQuery/jquery-3.5.1.min.js"></script>
+    <script defer src="../js/Functions/JSNavBar.js"></script>
+    <script defer src="../js/Functions/JSModal.js"></script>
+    <script defer src="../js/Page/JSIndividueleProductPage.js"></script>
+    <script defer src="../js/Functions/Kalender.js"></script>
+
+</head>
+<body>
+    <nav id="nav" class="navibar">
+        <div id="subnav">
+            <div id="desktopnav">
+                <a class="navbutton" href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+                <a class="navbutton" href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+                <div id="imgcontainer">
+                    <a class="eve-logo" href="../html/HomepageForRent.html"></a>
+                </div>
+                <a class="navbutton" href="../html/ContactpageForRent.html">CONTACT</a>
+                <a class="navbutton" id="inlogbutton" href="../html/LoginpageForRent.html">INLOGGEN</a>
+            </div>
+            <div class="dropdown">
+                <svg id="hamburgermenu" onclick="ShowMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20" style="fill:rgb(0,192,64);"></rect>
+                    <rect y="30" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                    <rect y="60" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                </svg>
+                <svg id="crossmenu" class="hide-element" onclick="HideMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                    <line x1="10" y1="10" x2="90" y2="80" stroke=#00c040 stroke-width="20"></line>
+                    <line x1="90" y1="10" x2="10" y2="80" stroke=#00c040 stroke-width="20"></line>
+                </svg>
+            </div>
+        </div>
+        <a href="WinkelmandPageForRent.html" id="navwinkelmandcontainer">
+            <img src="../assets/icons/BasketIcon.svg" id="navwinkelmand" alt="">
+        </a>
+        <div class="dropdown-content2 hide-element">
+            <a id="winkelmandhamburgermenu" href="../html/WinkelmandPageForRent.html">WINKELMAND</a>
+            <a href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+            <a href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+            <a href="../html/ContactpageForRent.html">CONTACT</a>
+            <a id="inlogbuttonhamburger" href="../html/LoginpageForRent.html">INLOGGEN</a>
+        </div>
+    </nav>
+    <div id="notnav">
+        <div id="productpage">
+            <div class="productpagecontainer">
+                <div id="productimage" class="productimage"></div>
+                <h2 id="h2"></h2>
+                <div class="productinfo-productcalender-container">
+                    <div id="productinfo" class="productinfo">
+                        <h3>Info</h3>
+                    </div>
+                    <div id="productcalender" class="productcalender">
+
+                        <h3>Duur en totaalprijs</h3>
+                        <div class="datum">
+                            <label for="start">Startdatum:</label>
+                            <button id="start" name="trip-end" class="einddatum start" onclick="ShowCalender(this,occupiedDates)" onchange="berekenPrijs()"></button>
+                        </div>
+                        <div class="datum">
+                            <label for="eind">Einddatum:</label>
+                            <button id="eind" name="trip-end" class="einddatum eind" onclick="ShowCalender(this,occupiedDates)" onchange="berekenPrijs()"></button>
+                        </div>
+                        <div class="totaalPrijs">
+                            <p class="totaalPrijsLeft">Totaalprijs: </p>
+                            <p id="totaalPrijs" class="totaalPrijsRight"></p>
+                        </div>
+                        <button id="reserveerButton" onclick="reserveerClick()">RESERVEREN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer menuhide flex-element" id="footer">
+            <div class="footer-adres">
+                <p>Hoofdkantoor Hasselt<br><span class="accent-white">Kempische Steenweg 293<br>3500 Hasselt</span></p>
+                <div class="footer-adres-buttons">
+                    <p>(+32)499/22.55.55</p>
+                    <a href="#">EVE@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-socialmedia">
+                <p>Follow Us</p>
+                <a class="footer-socialmedia-icon-facebook" href="#"></a>
+                <a class="footer-socialmedia-icon-linkedin" href="#"></a>
+                <a class="footer-socialmedia-icon-snapchat" href="#"></a>
+                <a class="footer-socialmedia-icon-twitter" href="#"></a>
+                <a class="footer-socialmedia-icon-youtube" href="#"></a>
+            </div>
+            <div class="footer-top">
+                <p class="footer-top-toptext">Website designed by</p>
+                <a class="footer-top-logo" href="#"></a>
+                <p class="footer-top-bottomtext">Copyright © 2022 Team OverPowered</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

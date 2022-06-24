@@ -1,0 +1,332 @@
+.login-container {
+    min-height: calc(100vh - 670px - 2rem);
+    width: 90%;
+    background-image: url("../assets/images/EV_Charging.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem auto 1rem auto;
+}
+
+.login-innercontainer {
+    width: 100%;
+    background: rgba(24, 44, 76, .9);
+    padding: 2rem;
+}
+
+.sign-in, .sign-up {
+    display: none;
+}
+
+.tab {
+    font-family: "Koliko Regular", sans-serif;
+    color: #00c040;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.sign-in:checked + .tab, .sign-up:checked + .tab {
+    color:#fff;
+    border-color:#00c040;
+}
+
+.login-form {
+    position: relative;
+    margin-top: 2rem;
+}
+
+#sign-in-html {
+    opacity: 1;
+    display: block;
+    animation: rotateYLeft 1s ease-in-out forwards;
+    transform-origin: left center;
+}
+
+#sign-up-html {
+    opacity: 0;
+    display: none;
+    animation: rotateYRight 1s ease-in-out forwards;
+    transform-origin: right center;
+}
+
+
+.login-form .sign-in-group,
+.login-form .sign-up-group {
+    margin: 2rem 0 2rem 0;
+}
+
+.login-form .input:focus-visible {
+    outline: 2px solid #00c040;
+    outline-offset: 2px;
+}
+
+.login-form .sign-in-group .label,
+.login-form .sign-up-group .label,
+.login-form .sign-in-group .button,
+.login-form .sign-up-group .button{
+    padding-bottom: 1rem;
+}
+
+.login-form .sign-in-group .check,
+.login-form .sign-up-group .check{
+    color: #00c040;
+}
+
+.login-form .sign-in-group .label,
+.login-form .sign-up-group .label,
+.login-form .sign-in-group .input,
+.login-form .sign-up-group .input,
+.login-form .sign-in-group .button,
+.login-form .sign-up-group .button {
+    width: 100%;
+    display: block;
+}
+
+.login-form .sign-in-group .input,
+.login-form .sign-up-group .input,
+.login-form .sign-in-group .button,
+.login-form .sign-up-group .button {
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-bottom: 0.5rem;
+    background: rgba(255, 255, 255, .1);
+}
+
+.login-form .sign-in-group input[data-type="password"],
+.login-form .sign-up-group input[data-type="password"] {
+    -webkit-text-security: circle;
+}
+
+.login-form .sign-in-group .label,
+.login-form .sign-up-group .label {
+    color: #fff;
+}
+
+.login-form .sign-in-group .button,
+.login-form .sign-up-group .button {
+    color: var(--accent-green);
+    background:#fff;
+}
+
+.login-form p {
+    color: #fff;
+}
+
+.hr {
+    width: 90%;
+    height: 2px;
+    margin: 2rem auto 3rem auto;
+    background:#00c040;
+}
+
+.bottom-link {
+    text-align:center;
+}
+
+.bottom-link a {
+    text-decoration: none;
+    color: #fff;
+}
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 10rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(24,44, 76,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 4rem;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #182c4c;
+}
+.modal-content button{
+    color: #00C040;
+    border: 2px solid #182c4c;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-bottom: 0.5rem;
+    background: #fff;
+    width: 50%;
+    transform: scale(1);
+}
+
+.modal-content button:hover,
+.modal-content button:focus{
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 500ms ease-in-out;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #182C4C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c040;
+    border: 6px solid #182C4C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.login-form .sign-up-group .button,
+.login-form .sign-in-group .button {
+    transform: scale(1.0);
+    transition: all ease-in-out .2s;
+}
+.login-form .sign-up-group .button:hover,
+.login-form .sign-in-group .button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.login-form .sign-up-group .button:active,
+.login-form .sign-in-group .button:active {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:576px) {
+    .login-container {
+        min-height: calc(100vh - 270px - 2rem);
+        width: 80%;
+    }
+
+    .hr {
+        width: 75%;
+        margin: 0.5rem auto 2.5rem auto;
+    }
+
+    .tabs {
+        text-align: center;
+    }
+
+    .sign-in, .sign-up {
+        cursor: pointer;
+    }
+
+    .login-form p {
+        width: 30%;
+        text-align: left;
+        margin: 0 auto 0 auto;
+    }
+
+    .sign-up-html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .login-form .sign-in-group .label,
+    .login-form .sign-up-group .label {
+        display: block;
+        width: 50%;
+        min-width: 300px;
+        padding: 0;
+        margin: 0 auto 0.5rem auto;
+    }
+
+    .login-form .sign-in-group .check,
+    .login-form .sign-up-group .check {
+        display: block;
+    }
+
+    .login-form .sign-in-group .input,
+    .login-form .sign-up-group .input,
+    .login-form .sign-in-group .button,
+    .login-form .sign-up-group .button,
+    .login-form .sign-in-group .check,
+    .login-form .sign-up-group .check {
+        width: 50%;
+        min-width:300px;
+        margin: 0 auto 0.5rem auto;
+    }
+
+    .footer {
+        width: 100%;
+    }
+    .modal{
+        padding-top: 15rem;
+    }
+
+    .modal-content{
+        width: 40%;
+        padding: 1rem;
+    }
+    .modal-content button{
+        width: 20%;
+    }
+}
+@media screen and (min-width:1200px){
+    .login-form .sign-in-group .label,
+    .login-form .sign-up-group .label {
+        width: 30%;
+    }
+    .login-form .sign-in-group .input,
+    .login-form .sign-up-group .input,
+    .login-form .sign-in-group .button,
+    .login-form .sign-up-group .button,
+    .login-form .sign-in-group .check,
+    .login-form .sign-up-group .check {
+        width: 30%;
+    }
+}
+
+@keyframes rotateYLeft {
+    0% {
+        transform: rotateY(90deg)
+    }
+    80% {
+        transform: rotateY(-10deg)
+    }
+    100% {
+        transform: rotateY(0)
+    }
+}
+
+@keyframes rotateYRight {
+    0% {
+        transform: rotateY(90deg)
+    }
+    80% {
+        transform: rotateY(-10deg)
+    }
+    100% {
+        transform: rotateY(0)
+    }
+}

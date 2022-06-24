@@ -1,0 +1,140 @@
+
+#productpage {
+    min-height: calc(100vh - 670px);
+    background-image: url("../assets/images/EV_Charging.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4% 0;
+}
+
+.productpagecontainer {
+    width: 80%;
+    background: rgba(250, 250, 250, .9);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.productimage {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#182c4c, rgba(250, 250, 250, 0));
+    border-radius: 10px;
+}
+
+.productimage img {
+    width: 80%;
+}
+
+.productinfo-productcalender-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.productinfo {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    font-family: 'Koliko Regular', sans-serif;
+    color: var(--accent-blue);
+    text-align: center;
+}
+
+.ind-productbereik,
+.ind-topsnelheid,
+.ind-acceleratie,
+.ind-productplaatsen,
+.ind-productprijs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #00c040;
+    font-weight: bold;
+    padding: 0 16px;
+}
+
+.lijn {
+    width: 85%;
+    border-bottom: 1px solid #182c4c;
+}
+
+.productcalender {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.productcalender h3 {
+    padding-bottom: 1em;
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: #182c4c;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.totaalPrijs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.totaalPrijsLeft {
+    color: #182c4c;
+    font-weight: bold;
+    padding-right: .5em;
+}
+
+.totaalPrijsRight {
+    color: var(--accent-green);
+    border-bottom: 1px solid var(--accent-blue);
+}
+
+#reserveerButton {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    color: #182c4c;
+    font-weight: bold;
+    background: #00c040;
+    padding: 6px 40px;
+    border: none;
+    border-radius: 25px;
+    margin: 2em auto;
+    transform: scale(1);
+    transition: all ease-in-out .2s;
+}
+
+#reserveerButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+@media screen and (min-width:576px) {
+    .productimage img {
+        width: 50%;
+    }
+    .productinfo-productcalender-container {
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .productinfo, .productcalender {
+        width: 30%;
+    }
+}
+

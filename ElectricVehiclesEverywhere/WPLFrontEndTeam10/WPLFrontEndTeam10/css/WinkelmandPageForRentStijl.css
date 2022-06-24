@@ -1,0 +1,217 @@
+h1 {
+    width: 90%;
+    font-family: "Koliko Regular", sans-serif;
+    color: #182c4c;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 2px solid #00c040;
+    margin: 0 auto;
+}
+
+
+
+#winkelmandContainer {
+    min-height: calc(100vh - 70px - 72px - 89px - 600px);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.productcardcontainer {
+    color: #fff;
+    background: url("../assets/images/EV_Charging.jpg"), center;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.productcards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(24, 44, 76, .8);
+    border-radius: 10px;
+}
+
+.productimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productimage img {
+    width: 75%;
+}
+
+.bestellinginfo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.productnaam p {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 7px 0;
+    border-bottom: 1px solid #00c040;
+    margin: .75rem 0;
+}
+
+.productnaam p:hover,
+.productnaam p:active {
+    cursor: pointer;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.productdatum {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.startdatum, .einddatum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.prijs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 .5rem;
+}
+
+.lijn {
+    display: none;
+    height: 140px;
+    border-right: 1px solid #00c040;
+}
+
+button {
+    width: 200px;
+    color: #00c040;
+    background-color: #fff;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border: 2px solid #182c4c;
+    border-radius: 50px;
+    margin: 0 .5rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all ease-in-out 500ms;
+}
+
+.productverwijderen button {
+    width: 200px;
+    color: var(--accent-red);
+    background-color: #fff;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border: 2px solid #00c040;
+    border-radius: 50px;
+    margin: 2rem .5rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all ease-in-out 500ms;
+}
+
+.productverwijderen button:hover,
+.productverwijderen button:active {
+    transform: scale(1.05);
+}
+
+input {
+    width: 200px;
+    color: #00c040;
+    background-color: #fff;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#test, #bevestig {
+    margin: 1rem .5rem;
+    align-self: center;
+}
+
+footer {
+    width: 100%;
+}
+#totaalEnBestel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.totaalPrijsContainer {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#totaalRekening {
+    font-family: "Koliko Regular", sans-serif;
+    color: #182c4c;
+    margin-right: .2rem;
+}
+#totaalRekeningBedrag {
+    font-family: "Koliko Regular", sans-serif;
+    color: #182c4c;
+    border-bottom: 1px solid #00c040;
+    margin-left: .2rem;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (min-width: 576px){
+    #winkelmandContainer {
+        min-height: calc(100vh - 70px - 72px - 125px - 200px);
+    }
+    .buttonContainer {
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #winkelmandContainer {
+        min-height: calc(100vh - 70px - 72px - 124px - 200px);
+    }
+    .productcards {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .productimage {
+        width: 60%;
+    }
+    .lijn {
+        display: block;
+    }
+    .bestellinginfo {
+        padding: 0 .75rem;
+    }
+    .infocontainer {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .productDatum {
+        width: 50%;
+    }
+
+}

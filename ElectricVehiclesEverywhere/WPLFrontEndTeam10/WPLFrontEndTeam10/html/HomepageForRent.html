@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Vehicles Everywhere</title>
+    <link rel="stylesheet" href="../css/AlgemeneStijl.css">
+    <link rel="stylesheet" href="../css/NavBarStijl.css">
+    <link rel="stylesheet" href="../css/FooterStijl.css">
+    <link rel="stylesheet" href="../css/HomepageForRentStijl.css">
+    <script defer src="../js/Fetch/fetch.js"></script>
+    <script defer src="../js/JQuery/jquery-3.5.1.min.js"></script>
+    <script defer src="../js/Functions/JSNavBarWithScrolling.js"></script>
+    <script defer src="../js/Page/JSHomepage.js"></script>
+
+
+</head>
+
+<body>
+<nav id="nav" class="navibar">
+    <div id="subnav">
+        <div id="desktopnav">
+            <a class="navbutton" href="#eve-info">OVER ONS</a>
+            <a class="navbutton" href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+            <div id="imgcontainer">
+                <a class="eve-logo" href="../html/HomepageForRent.html"></a>
+            </div>
+            <a class="navbutton" href="../html/ContactpageForRent.html">CONTACT</a>
+            <a class="navbutton" id="inlogbutton" href="../html/LoginpageForRent.html">INLOGGEN</a>
+        </div>
+        <div class="dropdown">
+
+            <svg id="hamburgermenu" onclick="ShowMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20" style="fill:rgb(0,192,64);"></rect>
+                <rect y="30" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                <rect y="60" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+            </svg>
+            <svg id="crossmenu" class="hide-element" onclick="HideMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <line x1="10" y1="10" x2="90" y2="80" stroke=#00c040 stroke-width="20"></line>
+                <line x1="90" y1="10" x2="10" y2="80" stroke=#00c040 stroke-width="20"></line>
+            </svg>
+        </div>
+    </div>
+    <a href="WinkelmandPageForRent.html" id="navwinkelmandcontainer">
+        <img src="../assets/icons/BasketIcon.svg" id="navwinkelmand" alt="">
+    </a>
+
+    <div class="dropdown-content2 hide-element">
+        <a id="winkelmandhamburgermenu" href="../html/WinkelmandPageForRent.html">WINKELMAND</a>
+        <a href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+        <a href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+        <a href="../html/ContactpageForRent.html">CONTACT</a>
+        <a id="inlogbuttonhamburger" href="../html/LoginpageForRent.html">INLOGGEN</a>
+    </div>
+</nav>
+<div id="notnav">
+    <div id="windmolens">
+        <video id="windmolensvid" autoplay loop muted>
+        </video>
+    </div>
+    <div id="landingpage" class="landingpage block-element">
+        <header>
+            <h1><span class="accent-green">E</span>LECTRIC <span class="accent-green">V</span>EHICLES <span
+                    class="accent-green">E</span>VERYWHERE</h1>
+            <a href="ProductcardForRent.html"><button>Huur een voertuig</button></a>
+
+        </header>
+    </div>
+
+    <div id="eve-info" class="eve-info flex-element">
+        <div id="eve-info-header" class="eve-info-header">
+            <h2>
+                <span class="accent-green">E</span>lectric <span class="accent-green">V</span>ehicles <span
+                    class="accent-green">E</span>verywhere verhuurt de toekomst
+            </h2>
+            <p>Van de nieuwste Tesla tot de leukste E-step bent u bij <span class=”accentcolor1”>EVE</span> aan het
+                juiste adres</p>
+            <p>Door gebruik te maken van één van onze elektrische voertuigen neemt u tevens een grote stap in het
+                verkleinen van uw ecologische voetafdruk</p>
+        </div>
+        <div id="eve-info-voordelen" class="eve-info-voordelen">
+            <h2>De voordelen van huren bij <span class="accent-green">E</span>lectric <span
+                    class="accent-green">V</span>ehicles <span class="accent-green">E</span>verywhere</h2>
+            <p>De ruimste keuze aan ecologische voertuigen in België</p>
+            <p>Transparante huurprijzen </p>
+            <p>Onze voertuigen zijn uitgerust met noodhulpsystemen voor een nog veiligere ervaring</p>
+        </div>
+        <div id="eve-info-slogan" class="eve-info-slogan">
+            <h2>Drive the future today!</h2>
+        </div>
+    </div>
+
+    <div class="transparantdiv"></div>
+
+    <div id="productpreviews" class="productpreviews block-element">
+        <div id="autos" class="productpreview-voertuig">
+            <img src="../assets/images/ElektrischeAuto.svg" alt="elektrische auto" id="autos-img"
+                 class="autos-img">
+            <div id="autos-info" class="productpreview-info">
+                <h2><span class="accent-green">E</span>lektrische auto’s</h2>
+                <h3>Bij Electric Vehicles Everywhere vindt u ongetwijfeld de wagen die past bij uw noden</h3>
+                <p>
+                    Voor een kleine verplaatsing of een roadtrip door Europa, EVE helpt u de baan op. Met één onze vele
+                    wagens geniet u van alle mogelijke comfort, de nieuwste veiligheidsfeatures en nog zoveel meer.
+                </p>
+            </div>
+
+        </div>
+        <div class="transparantdiv"></div>
+        <div id="motors" class="productpreview-voertuig">
+            <img src="../assets/images/ElektrischeMotor.svg" alt="elektrische motor" id="motors-img"
+                 class="motors-img">
+            <div id="motors-info" class="productpreview-info">
+                <h2><span class="accent-green">E</span>lektrische motors</h2>
+                <h3>De beste, nieuwste motors van Europa en verder</h3>
+                <p>
+                    Een vrije dag, files vermijden… met onze elektrische motors gaat het allemaal! Geniet van een
+                    rustig ritje tussen de weilanden of ga voluit en ervaar de kracht van onze elektrische motors.
+                </p>
+            </div>
+        </div>
+        <div class="transparantdiv"></div>
+        <div id="fietsen" class="productpreview-voertuig">
+            <img src="../assets/images/ElektrischeFiets.svg" alt="elektrische fiets" id="fietsen-img"
+                 class="fietsen-img">
+            <div id="fietsen-info" class="productpreview-info">
+                <h2><span class="accent-green">E</span>lektrische fietsen</h2>
+                <h3>Fietstocht gepland? Wij hebben een ruim gamma aan elektrische fietsen</h3>
+                <p>
+                    Met de trapondersteuning die een elektrische fiets biedt kan u ten volle genieten van uw fietstocht.
+                    Kleine of grote afstanden, het kan allemaal, er is altijd een geschikte fiets beschikbaar.
+                </p>
+            </div>
+
+        </div>
+        <div class="transparantdiv"></div>
+        <div id="steps" class="productpreview-voertuig">
+            <img src="../assets/images/ElektrischeStep.svg" alt="elektrische step" id="steps-img"
+                 class="steps-img">
+            <div id="steps-info" class="productpreview-info">
+                <h2><span class="accent-green">E</span>lektrische steps</h2>
+                <h3>Snel rond in de stad? Neem de step!</h3>
+                <p>
+                    Met slechts enkele klikken bent u op weg met één van de steps van Electric Vehicles Everywhere. Een
+                    elektrische step is het ideale voertuig voor wie graag snel korte afstanden doet.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer menuhide flex-element" id="footer">
+        <div class="footer-adres">
+            <p>Hoofdkantoor Hasselt<br><span class="accent-white">Kempische Steenweg 293<br>3500 Hasselt</span></p>
+            <div class="footer-adres-buttons">
+                <p>(+32)499/22.55.55</p>
+                <a href="#">EVE@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-socialmedia">
+            <p>Follow Us</p>
+            <a class="footer-socialmedia-icon-facebook" href="#"></a>
+            <a class="footer-socialmedia-icon-linkedin" href="#"></a>
+            <a class="footer-socialmedia-icon-snapchat" href="#"></a>
+            <a class="footer-socialmedia-icon-twitter" href="#"></a>
+            <a class="footer-socialmedia-icon-youtube" href="#"></a>
+        </div>
+        <div class="footer-top">
+            <p class="footer-top-toptext">Website designed by</p>
+            <a class="footer-top-logo" href="#"></a>
+            <p class="footer-top-bottomtext">Copyright © 2022 Team OverPowered</p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

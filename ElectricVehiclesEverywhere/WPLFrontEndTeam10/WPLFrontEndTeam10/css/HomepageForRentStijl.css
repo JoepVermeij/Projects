@@ -1,0 +1,308 @@
+
+/* Fonts */
+/* ----- */
+
+@font-face {
+    font-family: "Koliko Regular";
+    src: url("../assets/fonts/koliko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Light";
+    src: url("../assets/fonts/koliko-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Bold";
+    src: url("../assets/fonts/koliko-Bold.ttf") format("truetype");
+}
+
+
+/* Landingpage */
+/* ----------- */
+
+.landingpage{
+    min-height: 1080px;
+    margin-top: -70px;
+    padding: 0;
+    overflow: hidden;
+}
+#windmolens {
+    position: fixed;
+    width:100%;
+    z-index: -1;
+}
+
+.landingpage header {
+    margin: 40vh 10% 40vh 10%;
+    text-align: center;
+    /*
+    margin-top: 40vh;
+    margin-right: 30%;
+    margin-bottom: 40vh;
+    margin-left: calc(100px + 5%);
+
+     */
+
+}
+
+.landingpage header h1 {
+    font-family: "Koliko Bold", sans-serif;
+    font-size: 2rem;
+    color: #182c4c;
+}
+
+.landingpage header button {
+    display: block;
+    margin: 5rem auto;
+    font-family: Roboto, sans-serif;
+    font-size: larger;
+    color: #00c040;
+    background-color: #182c4c;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all ease-in-out 500ms;
+}
+
+.landingpage header a {
+    text-decoration: none;
+}
+
+
+/* Infosectie */
+/* ---------- */
+
+.eve-info {
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.eve-info h2 {
+    font-family: "Koliko Regular", sans-serif;
+    font-size: xxx-large;
+    color: #182c4c;
+    padding-bottom: 1rem;
+}
+
+.eve-info h3 {
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
+    color: #00c040;
+    padding-bottom: 1rem;
+}
+
+.eve-info p {
+    font-family: Roboto, sans-serif;
+    color: #182c4c;
+}
+
+.eve-info-header, .eve-info-voordelen, .eve-info-slogan {
+    text-align: center;
+    padding: 2rem;
+}
+
+.eve-info-voordelen{
+    display: none;
+}
+
+
+/* Productpreviews */
+/* --------------- */
+/*
+.autos, .fietsen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-reverse wrap;
+    background-color: white;
+    padding: 100px 0;
+}
+
+.motors, .steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: white;
+    padding: 100px 0;
+}
+
+.autos-info, .fietsen-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    max-width: 700px;
+    margin: 2rem 0;
+}
+
+.motors-info, .steps-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    max-width: 700px;
+    margin: 2rem 0;
+    order: 1
+}
+
+ */
+.productpreview-voertuig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: white;
+    padding: 100px 0;
+}
+.productpreview-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    max-width: 700px;
+    margin: 2rem 0;
+}
+
+.productpreviews img {
+    width: 90%;
+    max-width: 700px;
+    /*
+    height: calc(350px * 0.6);
+    width: calc(650px * 0.6);
+*/
+    border: 1px solid #00c040;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    box-shadow: 0 0 20px -10px #00C040;
+}
+
+.productpreviews h2 {
+    font-family: "Koliko Regular", sans-serif;
+    font-size: xxx-large;
+    color: #182c4c;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.productpreviews h3 {
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
+    color: #00c040;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #182c4c;
+    margin: 0;
+}
+
+.productpreviews p {
+    font-family: Roboto, sans-serif;
+    color: #182c4c;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+
+/* Scrollbar */
+/* --------- */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #182C4C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c040;
+    border: 6px solid #182C4C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+@media screen and (min-width:576px) {
+    .landingpage header {
+        margin: 40vh 10% 40vh 20%;
+        text-align: left;
+    }
+    .landingpage header h1 {
+        font-size: 4rem;
+    }
+    .landingpage header button {
+        display: block;
+        margin: 0;
+
+    }
+
+    .landingpage header button:hover {
+        color: #ffffff;
+        transform: scale(1.1);
+    }
+
+    .eve-info{
+        padding: 5rem;
+    }
+
+    .eve-info-voordelen{
+        display: block;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+
+    /* landingpage */
+    /* ----------- */
+
+    .landingpage header {
+        top: 40%;
+        left: 15%;
+    }
+
+
+
+
+
+    /* productpreviews */
+    /* --------------- */
+
+    .productpreview-voertuig {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row nowrap;
+    }
+
+    .productpreview-info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 30%;
+        margin: 2rem;
+    }
+    #autos, #fietsen{
+        flex-direction:  row-reverse;
+    }
+    #autos-info, #fietsen-info {
+        text-align: right;
+    }
+
+    .productpreviews img {
+        height: 350px;
+        width: 650px;
+        border: 1px solid #00c040;
+        border-radius: 1rem;
+        margin: 2rem;
+    }
+}
+@media screen and (min-width: 1920px) {
+    #windmolensvid{
+        width: 100%;
+    }
+}

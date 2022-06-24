@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Productcard</title>
+    <link rel="stylesheet" href="../css/AlgemeneStijl.css">
+    <link rel="stylesheet" href="../css/FooterStijl.css">
+    <link rel="stylesheet" href="../css/NavBarStijlFilled.css">
+    <link rel="stylesheet" href="../css/ProductcardForRentStijl.css">
+    <script defer src="../js/Fetch/fetch.js"></script>
+    <script defer src="../js/Fetch/productFetch.js"></script>
+    <script defer src="../js/JQuery/jquery-3.5.1.min.js"></script>
+    <script defer src="../js/Functions/JSNavBar.js"></script>
+    <script defer src="../js/HTMLGenerators/ProductcardGenerator.js"></script>
+    <script defer src="../js/Page/JSProductPage.js"></script>
+
+
+</head>
+<body onload="
+    ShowProductCards(uniqueProductenArray);">
+
+<nav id="nav" class="navibar">
+    <div id="subnav">
+        <div id="desktopnav">
+            <a class="navbutton" href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+            <a class="navbutton" href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+            <div id="imgcontainer">
+                <a class="eve-logo" href="../html/HomepageForRent.html"></a>
+            </div>
+            <a class="navbutton" href="../html/ContactpageForRent.html">CONTACT</a>
+            <a class="navbutton" id="inlogbutton" href="../html/LoginpageForRent.html">INLOGGEN</a>
+        </div>
+        <div class="dropdown">
+            <svg id="hamburgermenu" onclick="ShowMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20" style="fill:rgb(0,192,64);"></rect>
+                <rect y="30" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+                <rect y="60" width="100" height="20" style="fill:rgb(0,192,64)"></rect>
+            </svg>
+            <svg id="crossmenu" class="hide-element" onclick="HideMenu2()" viewBox="0 0 100 80" width="40" height="40">
+                <line x1="10" y1="10" x2="90" y2="80" stroke=#00c040 stroke-width="20"></line>
+                <line x1="90" y1="10" x2="10" y2="80" stroke=#00c040 stroke-width="20"></line>
+            </svg>
+        </div>
+    </div>
+    <a href="WinkelmandPageForRent.html" id="navwinkelmandcontainer">
+        <img src="../assets/icons/BasketIcon.svg" id="navwinkelmand" alt="">
+    </a>
+    <div class="dropdown-content2 hide-element">
+        <a id="winkelmandhamburgermenu"href="../html/WinkelmandPageForRent.html">WINKELMAND</a>
+        <a href="../html/HomepageForRent.html#eve-info">OVER ONS</a>
+        <a href="../html/ProductcardForRent.html">VOERTUIGEN</a>
+        <a href="../html/ContactpageForRent.html">CONTACT</a>
+        <a id="inlogbuttonhamburger" href="../html/LoginpageForRent.html">INLOGGEN</a>
+    </div>
+
+    <div id="filtermenu">
+        <div class="klasse-filters-container">
+            <div class="klasse-filters-subcontainer">
+                <p class="filtermenu-label">KLASSE</p>
+                <div class="klasse-filters">
+                    <p class="desktop-filter-button" onclick="desktopFilter('auto',this)">Auto's</p>
+                    <p class="desktop-filter-button" onclick="desktopFilter('brommer',this)">Brommers</p>
+                    <p class="desktop-filter-button" onclick="desktopFilter('fiets',this)">Fietsen</p>
+                    <p class="desktop-filter-button" onclick="desktopFilter('step',this)">Steps</p>
+                </div>
+            </div>
+            <div id="klasse-dropdown">
+                <div class="dropdown-menu" onclick="ToggleDropDown('klasse')">
+                    <p id="klasse-dropdown-selected">Alle</p>
+                    <img src="../assets/icons/ArrowIcon.svg" alt="ArrowIcon" id="klasse-dropdown-arrow" class="standard-arrow">
+                </div>
+            </div>
+            <div id="klasse-dropdownbuttoncontainer" class="hide-element">
+                <div class="filter-dropdownbutton" id="ddb-alle" onclick="mobileFilter(this);ToggleDropDown('klasse')">Alle</div>
+                <div class="filter-dropdownbutton" id="ddb-auto" onclick="mobileFilter(this);ToggleDropDown('klasse')">Auto's</div>
+                <div class="filter-dropdownbutton" id="ddb-brommer" onclick="mobileFilter(this);ToggleDropDown('klasse')">Brommers</div>
+                <div class="filter-dropdownbutton" id="ddb-fiets" onclick="mobileFilter(this);ToggleDropDown('klasse')">Fietsen</div>
+                <div class="filter-dropdownbutton" id="ddb-step" onclick="mobileFilter(this);ToggleDropDown('klasse')">Steps</div>
+            </div>
+        </div>
+        <div id="filtermenu-right">
+            <div id="sorteren-container">
+                <p class="filtermenu-label">Sorteren op</p>
+                <div id="sort-dropdown" class="dropdown-menu" onclick="ToggleDropDown('sort')">
+                    <p id="sortmenu-label">A-Z</p>
+                    <img src="../assets/icons/ArrowIcon.svg" alt="ArrowIcon" id="sort-dropdown-arrow" class="standard-arrow">
+                </div>
+            </div>
+            <img src="../assets/icons/FilterIcon.svg" alt="FilterIcon" onclick="TogglePopupFilterMenu()">
+            <div id="sort-dropdownbuttoncontainer" class="hide-element">
+                <div class="filter-dropdownbutton" onclick="SortCards(0,this);ToggleDropDown('sort')">€ laag - hoog</div>
+                <div class="filter-dropdownbutton" onclick="SortCards(1,this);ToggleDropDown('sort')">€ hoog - laag</div>
+                <div class="filter-dropdownbutton" onclick="SortCards(2,this);ToggleDropDown('sort')">A-Z</div>
+                <div class="filter-dropdownbutton" onclick="SortCards(3,this);ToggleDropDown('sort')">Z-A</div>
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+
+<div id="notnav">
+    <div id="page-container">
+        <div id="popup-filtermenu" class="hide-element">
+            <h3>Sorteren op</h3>
+            <form id="popup-sortmenu">
+                <h4>Prijs</h4>
+                <input type="radio" value="€ laag - hoog" id="laag-hoog" name="sort" onclick="SortCards(0,this)">
+                <label class="sort" for="laag-hoog">€ Laag - Hoog</label><br>
+                <input type="radio" value="€ hoog-laag" id="hoog-laag" name="sort" onclick="SortCards(1,this)">
+                <label class="sort" for="hoog-laag">€ Hoog - Laag</label><br>
+                <h4>Naam</h4>
+                <input type="radio" value="A-Z" id="A-Z" name="sort" onclick="SortCards(2,this)">
+                <label class="sort" for="A-Z">A - Z</label><br>
+                <input type="radio" value="Z-A" id="Z-A" name="sort" onclick="SortCards(3,this)">
+                <label class="sort" for="Z-A">Z - A</label>
+                <h4>Actieradius</h4>
+                <input type="radio" value="actieradius-asc" id="actieradius-asc" name="sort"
+                       onclick="SortCards(4,this)">
+                <label class="sort" for="actieradius-asc">Laag - Hoog</label><br>
+                <input type="radio" value="actieradius-desc" id="actieradius-desc" name="sort"
+                       onclick="SortCards(5,this)">
+                <label class="sort" for="actieradius-desc">Hoog - Laag</label>
+
+            </form>
+<!--            <div class="filters">-->
+<!--                <h3>Actieradius</h3>-->
+<!--                <p onclick="SortCards(4, this)">laag - hoog</p>-->
+<!--                <p onclick="SortCards(5, this)">hoog - laag</p>-->
+<!--            </div>-->
+        </div>
+        <div id="productcardscontainer">
+
+        </div>
+    </div>
+
+    <footer class="footer menuhide flex-element" id="footer">
+        <div class="footer-adres">
+            <p>Hoofdkantoor Hasselt<br><span class="accent-white">Kempische Steenweg 293<br>3500 Hasselt</span></p>
+            <div class="footer-adres-buttons">
+                <p>(+32)499/22.55.55</p>
+                <a href="#">EVE@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-socialmedia">
+            <p>Follow Us</p>
+            <a class="footer-socialmedia-icon-facebook" href="#"></a>
+            <a class="footer-socialmedia-icon-linkedin" href="#"></a>
+            <a class="footer-socialmedia-icon-snapchat" href="#"></a>
+            <a class="footer-socialmedia-icon-twitter" href="#"></a>
+            <a class="footer-socialmedia-icon-youtube" href="#"></a>
+        </div>
+        <div class="footer-top">
+            <p class="footer-top-toptext">Website designed by</p>
+            <a class="footer-top-logo" href="#"></a>
+            <p class="footer-top-bottomtext">Copyright © 2022 Team OverPowered</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

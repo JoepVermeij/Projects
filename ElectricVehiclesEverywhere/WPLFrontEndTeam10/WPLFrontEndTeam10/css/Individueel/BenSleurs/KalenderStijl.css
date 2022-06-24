@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Koliko Regular";
+    src: url("../../../assets/fonts/koliko-Regular.ttf") format("truetype");
+}
+
+#kalenderContainer {
+    position: absolute;
+    background: url("../../../assets/images/EV_Charging.jpg"), center;
+    background-size: cover;
+
+
+}
+.kalenderup{
+    transform: translateY(-215px);
+
+}
+.kalenderdown{
+    transform: translateY(215px);
+}
+
+#Kalender {
+    font-family: Koliko Regular, sans-serif;
+    border: 2px solid #00c040;
+    border-collapse: collapse;
+    background-color: rgba(24, 44, 76, .8);
+}
+
+#Kalender td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#calenderlabel {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.changemonth img {
+    height: 80%;
+    cursor: pointer;
+    filter: invert(100%) sepia(59%) saturate(85%) hue-rotate(174deg) brightness(121%) contrast(100%);
+
+}
+
+.changemonth img:hover {
+    filter: invert(52%) sepia(45%) saturate(1088%) hue-rotate(94deg) brightness(93%) contrast(107%);
+}
+
+#closeButton {
+    cursor: pointer;
+    transform: scale(.5);
+    transition: all ease-in-out .2s;
+}
+
+#closeButton:hover {
+    transform: scale(.65);
+}
+
+#dagenVanDeWeek {
+    color: #00c040;
+}
+
+.outofmonth {
+    color: grey;
+}
+
+.inmonth {
+    color: #fff;
+    font-weight: bold;
+}
+
+.inmonth:hover {
+    background-color: #00c040;
+    cursor: pointer;
+}
+.dateisoccupied{
+    color: red;
+}
+
+.datum {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 16px;
+    margin-bottom: 1rem;
+}
+
+.datum label {
+    color: #182c4c;
+    font-weight: bold;
+}
+
+.datum input {
+    color: #182c4c;
+    border: none;
+    padding: 5px 35px;
+    border-radius: 25px;
+    background: #00c040;
+}
+
+.datum input:hover {
+    cursor: pointer;
+}
+
+.datum input:focus-visible {
+    outline: 2px solid #182c4c;
+    outline-offset: 2px;
+}
+.datum button {
+    width: 150px;
+    height: 40px;
+    color: #00c040;
+    background-color: rgba(250, 250, 250, .8);
+    padding: .7rem 2rem;
+    border: 2px solid #182c4c;
+    border-radius: 50px;
+    margin: 0 .5rem;
+    cursor: pointer;
+}

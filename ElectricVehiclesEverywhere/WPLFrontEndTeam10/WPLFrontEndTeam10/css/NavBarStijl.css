@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Koliko Regular";
+    src: url("../assets/fonts/koliko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Light";
+    src: url("../assets/fonts/koliko-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Bold";
+    src: url("../assets/fonts/koliko-Bold.ttf") format("truetype");
+}
+
+
+.navibar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+#subnav {
+    z-index:2;
+    position: fixed;
+    top:0;
+    height: 70px;
+    display: flex;
+    /*
+    justify-content: center;
+    align-items: center;
+     */
+    margin: auto;
+    width: 100%;
+    padding: 0 5%;
+
+}
+#desktopnav{
+    order:1;
+    width: 90%;
+    max-width: 700px;
+}
+
+#desktopnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbutton {
+    display: none;
+    font-family: "Koliko Regular", sans-serif;
+    color: #00C040;
+    text-decoration: none;
+    transition: all ease-in-out 200ms;
+}
+
+.navbutton:hover {
+    color: #ffffff;
+}
+
+#imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eve-logo {
+    height: 70px;
+    width: 150px;
+    background: url("../assets/icons/EVEfinal.svg") no-repeat;
+    filter: invert(54%) sepia(85%) saturate(1918%) hue-rotate(98deg) brightness(92%) contrast(101%);
+    margin-top: 1.5rem;
+}
+
+.eve-logo:hover {
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(101%);
+}
+
+.dropdown {
+    order:1;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+#hamburgermenu {
+    padding: 2px;
+    transform: scale(1.0);
+    transition: 200ms ease-in all;
+}
+
+#hamburgermenu:active {
+    transform: scale(1.1);
+}
+
+#crossmenu {
+    transform: scale(1.0);
+    transition: 200ms ease-in all;
+}
+
+#crossmenu:active {
+    transform: scale(1.1);
+}
+
+.dropdown-content2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 110px 10px 40px 10px;
+}
+
+.dropdown-content2 a {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 25px 0;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00c040;
+    transform: scale(1);
+    border-radius: 5px;
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.dropdown-content2 a:active {;
+    transform: scale(1.15);
+    margin: 35px 0 40px 0;
+    padding: 10px 0 5px 0;
+    text-decoration: none;
+    background-color: #182C4C;
+    transition: width 200ms ease-in, height 200ms ease-in, background-color 200ms ease-in, transform 200s ease-in;
+}
+
+.dropdown-content2 a:hover {
+    text-decoration: none;
+}
+#navwinkelmandcontainer{
+    z-index: 2;
+    height: 30px;
+    aspect-ratio: 1/1;
+    position: fixed;
+    right: 85px;
+    top:19px;
+    transform: scale(1.0);
+    transition: all ease-in-out .2s;
+}
+#navwinkelmand{
+    height: inherit;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(24deg) brightness(103%) contrast(103%)
+
+}
+#navwinkelmandcontainer:hover{
+    transform: scale(1.1);
+}
+#navwinkelmandcontainer:active{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:576px) {
+
+    #subnav{
+        justify-content: center;
+        padding: 0 max(5%,50px);
+    }
+    .navbutton{
+        display: block;
+    }
+    #hamburgermenu{
+        display: none;
+    }
+    #crossmenu{
+        display:none;
+    }
+    .dropdown-content2{
+        display: none;
+    }
+    #navwinkelmandcontainer{
+        right: 30px;
+        top:19px;
+    }
+    #navwinkelmandcontainer:hover img {
+        filter: invert(54%) sepia(58%) saturate(4767%) hue-rotate(112deg) brightness(101%) contrast(103%);
+    }
+}

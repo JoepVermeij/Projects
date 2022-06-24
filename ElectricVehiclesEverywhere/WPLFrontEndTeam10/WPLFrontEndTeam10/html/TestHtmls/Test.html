@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/Individueel/BenSleurs/Fetchtests.js"></script>
+    <script defer src="../../js/Functions/Kalender.js"></script>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            width: 200px;
+            margin: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/Individueel/BenSleurs/KalenderCss.css">
+</head>
+<body>
+<button onclick="fetchJSON()">Get students</button>
+<button onclick="postRequest()">Add Jasper</button>
+<button onclick="GetKlanten()">Get klanten</button>
+<button onclick="insertKlant()">Add ne random klant fzo ik weet het niet</button>
+<button onclick="Login()">login</button>
+<button onclick="deleteKlant()">Delete eerste klant</button>
+<button onclick="getBestellingenTest()"> Krijg die bestellingen hier maaan</button>
+<div>
+    <button onclick="ShowCalender(this)">Toon Kalender</button>
+</div>
+<div>
+    <button onclick="ShowCalender(this)">Een andere knop om uw kalender op vast te zetten</button>
+</div>
+</body>
+</html>

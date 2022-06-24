@@ -1,0 +1,262 @@
+@font-face {
+    font-family: "Koliko Regular";
+    src: url("../assets/fonts/koliko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Light";
+    src: url("../assets/fonts/koliko-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Koliko Bold";
+    src: url("../assets/fonts/koliko-Bold.ttf") format("truetype");
+}
+
+
+#subnav {
+    background-color: var(--accent-blue);
+}
+
+h2 {
+    font-family: "Koliko Regular", sans-serif;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #00c040;
+}
+
+#profilecontainer {
+    /* 270px => 70px van nav, 600px van footer */
+    min-height: calc(100vh - 670px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url("../assets/images/EV_Charging.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.profiel-box {
+    width: 90%;
+    color: #fff;
+    margin: 1rem auto;
+    background: rgba(24, 44, 76, .9);
+}
+
+#containerlinks {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerlinks a {
+    color: #fff;
+    font-family: "Koliko Regular", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: 1rem;
+    transform: scale(1.0);
+    transition: all ease-in-out .5s;
+}
+
+#containerlinks a:hover {
+    transform: scale(1.2);
+    color: #00c040;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+#containerrechts {
+    max-width: 800px;
+}
+
+.gegevens-box {
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gegevens-box h2 {
+    width: 100%;
+}
+
+.profiel-text-title {
+    font-family: "Koliko Regular", sans-serif;
+    color: #00c040;
+    width: 140px;
+}
+
+.profiel-text-box {
+    width: calc(90% - 140px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profiel-input-box {
+    display: none;
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 0.5rem;
+    width: calc(90% - 140px);
+    min-width: 200px;
+}
+
+.profiel-input-box:focus-visible {
+    outline: 2px solid #00c040;
+    outline-offset: 2px;
+}
+
+.wijzigen {
+    color: #00c040;
+    background: #fff;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 25px;
+    margin: 2.5rem auto 1.5rem;
+    transform: scale(1);
+    transition: all ease-in-out .5s;
+}
+
+.wijzigen:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #00c040;
+    transform: scale(1.1);
+}
+.verwijderen {
+    color: #00c040;
+    background: #fff;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 25px;
+    margin: 1.5rem auto;
+    transform: scale(1);
+    transition: all ease-in-out .5s;
+}
+
+#persoonlijkegegevens-aanpassenklanten{
+    padding: 1rem 2.5rem;
+}
+.verwijderen:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #00c040;
+    transform: scale(1.1);
+}
+
+.input-container-links{
+    color: #fff;
+    border: none;
+    width: 14.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.input-container-links:focus-visible {
+    outline: 2px solid #00c040;
+    outline-offset: 2px;
+}
+
+#profiel-input-box-rijbewijs {
+    width: 50%;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#containerrechts {
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #182C4C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c040;
+    border: 6px solid #182C4C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+@media screen and (min-width:576px) {
+    #profilecontainer {
+        /* 270px => 70px van nav, 200px van footer */
+        min-height: calc(100vh - 270px);
+        flex-direction:row;
+        padding-bottom: 1rem;
+    }
+
+    #containerlinks {
+        width: 30%;
+        max-width: 300px;
+        justify-content: start;
+        /* height: 1138.25px; */
+    }
+
+    #containerrechts {
+        width: 70%;
+    }
+
+    .profiel-box {
+        margin: 1rem 0.5rem 0 0.5rem;
+    }
+
+    #profiel-input-box-rijbewijs {
+        width: 70%;
+    }
+    .modal{
+        padding-top: 15rem;
+    }
+
+    .modal-content{
+        width: 40%;
+        padding: 1rem;
+    }
+    .modal-content button{
+        width: 20%;
+    }
+    .modal-content-buttons{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .profiel-text-box {
+        width: 70%;
+    }
+
+    .profiel-input-box {
+        width: 70%;
+    }
+
+}
